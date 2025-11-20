@@ -1,12 +1,11 @@
-package cr.ac.utn.appmovil.interfaces
+package cr.ac.utn.movil.interfaces
 
-import identities.Identifier
+import cr.ac.utn.movil.identities.Identifier
 
-interface IDBManager {
+interface IDataManager {
     fun add (obj: Identifier)
     fun update (obj: Identifier)
     fun remove (id: String)
     fun getAll(): List<Identifier>
-    fun getByid(id: String): Identifier?
-    fun getByFullDescription(fullDescription: String): Identifier?
+    fun getById(id: String): Identifier?
 }

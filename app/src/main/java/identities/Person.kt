@@ -1,10 +1,9 @@
-package cr.ac.utn.appmovil.identities
+package cr.ac.utn.movil.identities
 
-import identities.Identifier
-
-open class Persona: Identifier {
+open class Person: Identifier {
     private var _name: String =""
-    private var _lastName: String=""
+    private var _fLastName: String=""
+    private var _sLastName: String=""
     private var _phone: Int = 0
     private var _email: String=""
     private var _address: String=""
@@ -12,27 +11,21 @@ open class Persona: Identifier {
 
     constructor()
 
-    constructor(id: String, name: String, lastName: String, phone: Int, email: String, address: String, country: String){
-        this.Id = id
-        this._name= name
-        this._lastName = lastName
-        this._phone=phone
-        this._email=email
-        this._address= address
-        this._country=country
-    }
-
     var Name: String
         get() = this._name
         set(value) {this._name = value}
 
-    var LastName: String
-        get() = this._lastName
-        set(value) {this._lastName = value}
+    var FLastName: String
+        get() = this._fLastName
+        set(value) {this._fLastName = value}
+
+    var SLastName: String
+        get() = this._sLastName
+        set(value) {this._sLastName = value}
 
     override val FullDescription = ""
 
-    override val FullName = "$Name $LastName"
+    override val FullName = "$Name $FLastName $SLastName"
 
     var Phone: Int
         get() = this._phone
