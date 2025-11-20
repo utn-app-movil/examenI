@@ -23,9 +23,10 @@ open class Person: Identifier {
         get() = this._sLastName
         set(value) {this._sLastName = value}
 
-    override val FullDescription = ""
-
     override val FullName = "$Name $FLastName $SLastName"
+
+    override val FullDescription: String
+        get() = TODO("Not yet implemented")
 
     var Phone: Int
         get() = this._phone
