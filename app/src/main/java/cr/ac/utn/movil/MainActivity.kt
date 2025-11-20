@@ -20,134 +20,144 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        val btnUser = findViewById<Button>(R.id.btnUser_main)
-        btnUser.setOnClickListener(View.OnClickListener{ view->
-            Toast.makeText(this, R.string.TextTestEver, Toast.LENGTH_LONG).show()
+        val btnAppointment_main = findViewById<Button>(R.id.btnAppointment_main)
+        btnAppointment_main.setOnClickListener(View.OnClickListener{ view->
+            //app_
         })
 
-        val btnEvent = findViewById<Button>(R.id.btnEvent_main)
-        btnEvent.setOnClickListener(View.OnClickListener{ view->
-
+        val btnVaccine_main = findViewById<Button>(R.id.btnVaccine_main)
+        btnVaccine_main.setOnClickListener(View.OnClickListener{ view->
+            //vac_
         })
 
-        val btnNews = findViewById<Button>(R.id.btnNews_main)
-        btnNews.setOnClickListener(View.OnClickListener{ view->
-
+        val btnLicense_main = findViewById<Button>(R.id.btnLicense_main)
+        btnLicense_main.setOnClickListener(View.OnClickListener{ view->
+            //lic_
         })
 
-        val btnTask = findViewById<Button>(R.id.btnTask_main)
-        btnTask.setOnClickListener(View.OnClickListener{ view->
-
+        val btnMedChecking_main = findViewById<Button>(R.id.btnMedChecking_main)
+        btnMedChecking_main.setOnClickListener(View.OnClickListener{ view->
+            //med_
         })
 
-        val btnProduct = findViewById<Button>(R.id.btnProduct_main)
-        btnProduct.setOnClickListener(View.OnClickListener{ view->
-
+        val btnClients_main = findViewById<Button>(R.id.btnClients_main)
+        btnClients_main.setOnClickListener(View.OnClickListener{ view->
+            //cli_
         })
 
-        val btnBooking = findViewById<Button>(R.id.btnBooking_main)
-        btnBooking.setOnClickListener(View.OnClickListener{ view->
-
+        val btnFlights_main = findViewById<Button>(R.id.btnFlights_main)
+        btnFlights_main.setOnClickListener(View.OnClickListener{ view->
+            //fli_
         })
 
-        val btnSurvey = findViewById<Button>(R.id.btnSurvery_main)
-        btnSurvey.setOnClickListener(View.OnClickListener{ view->
-
+        val btnRent_main = findViewById<Button>(R.id.btnRent_main)
+        btnRent_main.setOnClickListener(View.OnClickListener{ view->
+            //rent_
         })
 
-        val btnReceipt = findViewById<Button>(R.id.btnReceipt_main)
-        btnReceipt.setOnClickListener(View.OnClickListener{ view->
-
+        val btnEvents_main = findViewById<Button>(R.id.btnEvents_main)
+        btnEvents_main.setOnClickListener(View.OnClickListener{ view->
+            //eve_
         })
 
-        val btnService = findViewById<Button>(R.id.btnService_main)
-        btnService.setOnClickListener(View.OnClickListener{ view->
-
+        val btnPharmacy_main = findViewById<Button>(R.id.btnPharmacy_main)
+        btnPharmacy_main.setOnClickListener(View.OnClickListener{ view->
+            //pha_
         })
 
-        val btnSupplier = findViewById<Button>(R.id.btnSupplier_main)
-        btnSupplier.setOnClickListener(View.OnClickListener{ view->
-
+        val btnRecruitering_main = findViewById<Button>(R.id.btnRecruitering_main)
+        btnRecruitering_main.setOnClickListener(View.OnClickListener{ view->
+            //recru_
         })
 
-        val btnIncident = findViewById<Button>(R.id.btnIncident_main)
-        btnIncident.setOnClickListener(View.OnClickListener{ view->
-
+        val btnBidding_main = findViewById<Button>(R.id.btnBidding_main)
+        btnBidding_main.setOnClickListener(View.OnClickListener{ view->
+            //bid_
         })
 
-        val btnVehicle = findViewById<Button>(R.id.btnVehicle_main)
-        btnVehicle.setOnClickListener(View.OnClickListener{ view->
-
+        val btnSinpe_main = findViewById<Button>(R.id.btnSinpe_main)
+        btnSinpe_main.setOnClickListener(View.OnClickListener{ view->
+            //sin_
         })
 
-        val btnVisit = findViewById<Button>(R.id.btnVisit_main)
-        btnVisit.setOnClickListener(View.OnClickListener{ view->
-
+        val btnPayroll_main = findViewById<Button>(R.id.btnPayroll_main)
+        btnPayroll_main.setOnClickListener(View.OnClickListener{ view->
+            //pay_
         })
 
-        val btnMeeting = findViewById<Button>(R.id.btnMeeting_main)
-        btnMeeting.setOnClickListener(View.OnClickListener{ view->
-
+        val btnInventory_main = findViewById<Button>(R.id.btnInventory_main)
+        btnInventory_main.setOnClickListener(View.OnClickListener{ view->
+            //inv_
         })
 
-        val btnTraining = findViewById<Button>(R.id.btnTraining_main)
-        btnTraining.setOnClickListener(View.OnClickListener{ view->
-
+        val btnShipper_main = findViewById<Button>(R.id.btnShipper_main)
+        btnShipper_main.setOnClickListener(View.OnClickListener{ view->
+            //ship_
         })
 
-        val btnInventory = findViewById<Button>(R.id.btnInventory_main)
-        btnInventory.setOnClickListener(View.OnClickListener{ view->
-
+        val btnLibrary_main = findViewById<Button>(R.id.btnLibrary_main)
+        btnLibrary_main.setOnClickListener(View.OnClickListener{ view->
+            //lib_
         })
 
-        val btnVolunteer = findViewById<Button>(R.id.btnVolunteer_main)
-        btnVolunteer.setOnClickListener(View.OnClickListener{ view->
-
+        val btnExchange_main = findViewById<Button>(R.id.btnExchange_main)
+        btnExchange_main.setOnClickListener(View.OnClickListener{ view->
+            //exch_
         })
 
-        val btnEntertainment = findViewById<Button>(R.id.btnEntertainment_main)
-        btnEntertainment.setOnClickListener(View.OnClickListener{ view->
-
+        val btnTraining_main = findViewById<Button>(R.id.btnTraining_main)
+        btnTraining_main.setOnClickListener(View.OnClickListener{ view->
+            //train_
         })
 
-        val btnLibrary = findViewById<Button>(R.id.btnLibrary_main)
-        btnLibrary.setOnClickListener(View.OnClickListener{ view->
-
+        val btnNotification_main = findViewById<Button>(R.id.btnNotification_main)
+        btnNotification_main.setOnClickListener(View.OnClickListener{ view->
+            //notif_
         })
 
-        val btnRent = findViewById<Button>(R.id.btnRent_main)
-        btnRent.setOnClickListener(View.OnClickListener{ view->
-
+        val btnDashboard_main = findViewById<Button>(R.id.btnDashboard_main)
+        btnDashboard_main.setOnClickListener(View.OnClickListener{ view->
+            //dash_
         })
 
-        val btnLearning = findViewById<Button>(R.id.btnLearning_main)
-        btnLearning.setOnClickListener(View.OnClickListener{ view->
-
+        val btnPaymentEnsurance_main = findViewById<Button>(R.id.btnPaymentEnsurance_main)
+        btnPaymentEnsurance_main.setOnClickListener(View.OnClickListener{ view->
+            //payen_
         })
 
-        val btnHarvest = findViewById<Button>(R.id.btnHarvest_main)
-        btnHarvest.setOnClickListener(View.OnClickListener{ view->
-
+        val btnMarketing_main = findViewById<Button>(R.id.btnMarketing_main)
+        btnMarketing_main.setOnClickListener(View.OnClickListener{ view->
+            //mark_
         })
 
-        val btnMeal = findViewById<Button>(R.id.btnMeal_main)
-        btnMeal.setOnClickListener(View.OnClickListener{ view->
-
+        val btnEnsurance_main = findViewById<Button>(R.id.btnEnsurance_main)
+        btnEnsurance_main.setOnClickListener(View.OnClickListener{ view->
+            //ens_
         })
 
-        val btnSponsor = findViewById<Button>(R.id.btnSponsor_main)
-        btnSponsor.setOnClickListener(View.OnClickListener{ view->
-
+        val btnVehicle_main = findViewById<Button>(R.id.btnVehicle_main)
+        btnVehicle_main.setOnClickListener(View.OnClickListener{ view->
+            //veh_
         })
 
-        val btnFilm = findViewById<Button>(R.id.btnFilm_main)
-        btnFilm.setOnClickListener(View.OnClickListener{ view->
-
+        val btnProduction_main = findViewById<Button>(R.id.btnProduction_main)
+        btnProduction_main.setOnClickListener(View.OnClickListener{ view->
+            //prod_
         })
 
-        val btnRecipe = findViewById<Button>(R.id.btnRecipe_main)
-        btnRecipe.setOnClickListener(View.OnClickListener{ view->
+        val btnWater_main = findViewById<Button>(R.id.btnWater_main)
+        btnWater_main.setOnClickListener(View.OnClickListener{ view->
+            //wat_
+        })
 
+        val btnRecycling_main = findViewById<Button>(R.id.btnRecycling_main)
+        btnRecycling_main.setOnClickListener(View.OnClickListener{ view->
+            //recy_
+        })
+
+        val btnTemplate_main = findViewById<Button>(R.id.btnTemplate_main)
+        btnTemplate_main.setOnClickListener(View.OnClickListener{ view->
+            Toast.makeText(this, R.string.TextTemplate, Toast.LENGTH_LONG).show()
         })
     }
 }
