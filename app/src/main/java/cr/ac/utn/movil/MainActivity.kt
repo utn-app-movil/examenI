@@ -13,6 +13,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import cr.ac.utn.movil.ui.vac_VaccineActivity
 
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -125,10 +126,11 @@ class MainActivity : AppCompatActivity() {
             //dash_
         })
 
-        val btnPaymentEnsurance_main = findViewById<Button>(R.id.btnTemplate_main)
-        btnPaymentEnsurance_main.setOnClickListener(View.OnClickListener{ view->
-            //payen_
-        })
+        val btnPaymentEnsurance_main = findViewById<Button>(R.id.btnPaymentEnsurance_main)
+        btnPaymentEnsurance_main.setOnClickListener {
+            util.openActivity(this, PayenInsuranceListActivity::class.java)
+        }
+
 
         val btnMarketing_main = findViewById<Button>(R.id.btnTemplate_main)
         btnMarketing_main.setOnClickListener(View.OnClickListener{ view->
