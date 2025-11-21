@@ -76,12 +76,12 @@ class MainActivity : AppCompatActivity() {
 
         val btnBidding_main = findViewById<Button>(R.id.btnBidding_main)
         btnBidding_main.setOnClickListener {
-            Toast.makeText(this, "Bidding clicked", Toast.LENGTH_SHORT).show()
+            util.openActivity(this, BiddingMenuActivity_bid::class.java)
         }
 
 
         val btnSinpe_main = findViewById<Button>(R.id.btnTemplate_main)
-        btnBidding_main.setOnClickListener {
+        btnSinpe_main.setOnClickListener {
             util.openActivity(this, BiddingMenuActivity_bid::class.java)
         }
 
