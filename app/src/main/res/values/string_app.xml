@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_txt_id">ID</string>
+    <string name="app_txt_name">Patient Name</string>
+    <string name="app_txt_contact">Contact</string>
+    <string name="app_txt_doctor">Doctor Name</string>
+    <string name="app_txt_specialty">Specialty</string>
+    <string name="app_txt_date">Date</string>
+    <string name="app_txt_time">Time</string>
+
+
+    <string name="app_btn_save">Save Appointment</string>
+    <string name="app_btn_update">Update Appointment</string>
+    <string name="app_btn_delete">Delete Appointment</string>
+
+
+    <string name="app_msg_fill_fields">Please fill all fields</string>
+    <string name="app_msg_invalid_date">Date and time must be in the future</string>
+    <string name="app_msg_invalid_format">Invalid date or time format. Use yyyy-MM-dd and HH:mm</string>
+    <string name="app_msg_saved">Appointment saved successfully!</string>
+    <string name="app_msg_updated">Appointment updated successfully!</string>
+    <string name="app_msg_deleted">Appointment deleted successfully!</string>
+    <string name="app_msg_duplicate">Duplicate appointment detected</string>
+</resources>

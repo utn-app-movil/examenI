@@ -23,10 +23,12 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        val btnAppointment_main = findViewById<Button>(R.id.btnTemplate_main)
-        btnAppointment_main.setOnClickListener(View.OnClickListener{ view->
-            //app_
-        })
+        val btnAppointment = findViewById<Button>(R.id.btnAppointment_main)
+        btnAppointment.setOnClickListener {
+            val intent = Intent(this, activity_app_citas::class.java)
+            startActivity(intent)
+        }
+
 
         val btnVaccine_main = findViewById<Button>(R.id.btnVaccine_main)
         btnVaccine_main.setOnClickListener(View.OnClickListener{ view->
