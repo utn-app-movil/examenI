@@ -5,7 +5,7 @@ import cr.ac.utn.movil.entities.PayenInsuranceRequest
 
 class PayenInsuranceController {
 
-    // Add
+
     fun add(request: PayenInsuranceRequest): Boolean {
         // Check duplicate by ID
         val exists = MemoryDataManager.getById(request.ID)
@@ -17,7 +17,7 @@ class PayenInsuranceController {
         return true
     }
 
-    // Update
+
     fun update(request: PayenInsuranceRequest): Boolean {
         val exists = MemoryDataManager.getById(request.ID)
         if (exists == null) {
@@ -28,7 +28,7 @@ class PayenInsuranceController {
         return true
     }
 
-    // Delete
+
     fun delete(id: String): Boolean {
         val exists = MemoryDataManager.getById(id)
         if (exists == null) {
@@ -39,12 +39,12 @@ class PayenInsuranceController {
         return true
     }
 
-    // Get all
+
     fun getAll(): List<PayenInsuranceRequest> {
         return MemoryDataManager.getAll().filterIsInstance<PayenInsuranceRequest>()
     }
 
-    // Get by ID
+
     fun getById(id: String): PayenInsuranceRequest? {
         val result = MemoryDataManager.getById(id)
         return result as? PayenInsuranceRequest
