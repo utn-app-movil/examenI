@@ -8,6 +8,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import util.util
+
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -128,7 +131,7 @@ class MainActivity : AppCompatActivity() {
 
         val btnMarketing_main = findViewById<Button>(R.id.btnTemplate_main)
         btnMarketing_main.setOnClickListener(View.OnClickListener{ view->
-            //mark_
+            util.openActivity(this@MainActivity, MarkListActivity::class.java)
         })
 
         val btnEnsurance_main = findViewById<Button>(R.id.btnTemplate_main)
