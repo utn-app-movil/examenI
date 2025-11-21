@@ -33,6 +33,9 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -43,7 +46,12 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.recyclerview)
+<<<<<<< HEAD
     implementation(libs.androidx.media3.common.ktx)
+=======
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
+>>>>>>> d1d7188 (Test 1- Cristy Wilson)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

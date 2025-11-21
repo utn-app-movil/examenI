@@ -10,7 +10,12 @@ material = "1.13.0"
 activity = "1.8.0"
 constraintlayout = "2.1.4"
 recyclerview = "1.4.0"
+<<<<<<< HEAD
 media3CommonKtx = "1.8.0"
+=======
+navigationFragmentKtx = "2.6.0"
+navigationUiKtx = "2.6.0"
+>>>>>>> d1d7188 (Test 1- Cristy Wilson)
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -22,7 +27,12 @@ material = { group = "com.google.android.material", name = "material", version.r
 androidx-activity = { group = "androidx.activity", name = "activity", version = "1.12.0" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+<<<<<<< HEAD
 androidx-media3-common-ktx = { group = "androidx.media3", name = "media3-common-ktx", version.ref = "media3CommonKtx" }
+=======
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
+>>>>>>> d1d7188 (Test 1- Cristy Wilson)
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
