@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="prod_TextID">Identifier *</string>
+    <string name="prod_TextOrderNumber">Order number *</string>
+    <string name="prod_TextProducts">Products *</string>
+    <string name="prod_TextQuantity">Quantity *</string>
+    <string name="prod_TextOrderDate">Order date *</string>
+    <string name="prod_TextDeliveryDate">Delivery date *</string>
+    <string name="prod_TextCompanyName">Company name *</string>
+    <string name="prod_MsgQuantityInvalid">The quantity must be greater than zero</string>
+    <string name="prod_MsgDateInvalid">The delivery date must be greater than the order date</string>
+    <string name="prod_MsgDataIncomplete">Incomplete data</string>
+    <string name="prod_ShowSelectProducts">Select products</string>
+    <string name="prod_Accept">Accept</string>
+    <string name="prod_Cancel">Cancel</string>
+</resources>
