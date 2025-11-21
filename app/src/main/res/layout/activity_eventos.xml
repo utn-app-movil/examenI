@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:paddingTop="20dp"
+    tools:context=".EventosActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Back Button and Title -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnBack_evt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/TextBack_evt" />
+
+            <TextView
+                android:id="@+id/tvTitle_evt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/TextTitleEvents_evt"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Student ID -->
+        <EditText
+            android:id="@+id/etStudentId_evt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/TextStudentId_evt"
+            android:inputType="text" />
+
+        <!-- Name -->
+        <EditText
+            android:id="@+id/etName_evt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/TextName_evt"
+            android:inputType="textPersonName" />
+
+        <!-- First Last Name -->
+        <EditText
+            android:id="@+id/etFirstLastName_evt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/TextFirstLastName_evt"
+            android:inputType="textPersonName" />
+
+        <!-- Second Last Name -->
+        <EditText
+            android:id="@+id/etSecondLastName_evt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/TextSecondLastName_evt"
+            android:inputType="textPersonName" />
+
+        <!-- Phone -->
+        <EditText
+            android:id="@+id/etPhone_evt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/TextPhone_evt"
+            android:inputType="phone" />
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/etEmail_evt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/TextEmail_evt"
+            android:inputType="textEmailAddress" />
+
+        <!-- Address -->
+        <EditText
+            android:id="@+id/etAddress_evt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/TextAddress_evt"
+            android:inputType="text" />
+
+        <!-- Country -->
+        <EditText
+            android:id="@+id/etCountry_evt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/TextCountry_evt"
+            android:inputType="text" />
+
+        <!-- Institution -->
+        <EditText
+            android:id="@+id/etInstitution_evt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/TextInstitution_evt"
+            android:inputType="text" />
+
+        <!-- Event Location -->
+        <EditText
+            android:id="@+id/etEventLocation_evt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/TextEventLocation_evt"
+            android:inputType="text" />
+
+        <!-- Event Date -->
+        <EditText
+            android:id="@+id/etEventDate_evt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/TextEventDate_evt"
+            android:inputType="date" />
+
+        <!-- Event Time -->
+        <EditText
+            android:id="@+id/etEventTime_evt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/TextEventTime_evt"
+            android:inputType="time" />
+
+        <!-- Seat Number -->
+        <EditText
+            android:id="@+id/etSeatNumber_evt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/TextSeatNumber_evt"
+            android:inputType="number" />
+
+        <!-- Event Type Spinner -->
+        <Spinner
+            android:id="@+id/spEventType_evt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/TextEventType_evt"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Buttons -->
+        <!-- Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnSave_evt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Save"
+                android:layout_marginEnd="4dp" />
+
+            <Button
+                android:id="@+id/btnSearch_evt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/TextSearch_evt"
+                android:layout_marginEnd="4dp" />
+
+            <Button
+                android:id="@+id/btnClear_evt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/TextClear_evt" />
+
+        </LinearLayout>
+
+
+        <!-- List Title -->
+        <TextView
+            android:id="@+id/tvListTitle_evt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TextEventsList_evt"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- ListView -->
+        <ListView
+            android:id="@+id/lvEvents_evt"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+    </LinearLayout>
+</ScrollView>

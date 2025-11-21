@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/rent_input_client_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/rent_hint_client_name" />
+
+    <EditText
+        android:id="@+id/rent_input_client_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/rent_hint_client_id" />
+
+    <Spinner
+        android:id="@+id/rent_spinner_vehicle_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/rent_input_plate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/rent_hint_plate" />
+
+    <EditText
+        android:id="@+id/rent_input_mileage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/rent_hint_mileage" />
+
+    <EditText
+        android:id="@+id/rent_input_license"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/rent_hint_license" />
+</LinearLayout>
