@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prod_ProductionOrderActivity">
+
+    <TableLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/prod_txtView_ID_order"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/prod_TextID" />
+
+            <EditText
+                android:id="@+id/prod_txtID_order"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="text" />
+
+            <ImageButton
+                android:id="@+id/prod_btnSearchId_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_menu_search" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/prod_txtView_Number_order"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/prod_TextOrderNumber" />
+
+            <EditText
+                android:id="@+id/prod_txtNumber_order"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="text" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/prod_txtView_Products_order"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/prod_TextProducts" />
+
+            <Button
+                android:id="@+id/prod_btnProducts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prod_ShowSelectProducts" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/prod_txtView_Quantity_order"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/prod_TextQuantity" />
+
+            <EditText
+                android:id="@+id/prod_txtQuantity_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/prod_txtView_Date_order"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/prod_TextOrderDate" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/prod_lblDate_order"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp" />
+
+                <ImageButton
+                    android:id="@+id/prod_btnSelectedDate_order"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+            </TableRow>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/prod_txtView_Delivery_order"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/prod_TextDeliveryDate" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/prod_lblDelivery_order"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp" />
+
+                <ImageButton
+                    android:id="@+id/prod_btnSelectedDelivery_order"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+            </TableRow>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/prod_txtView_Company_order"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/prod_TextCompanyName" />
+
+            <Spinner
+                android:id="@+id/spinner_companies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
