@@ -52,9 +52,9 @@ class MainActivity : AppCompatActivity() {
             //cli_
         })
 
-        val btnFlights_main = findViewById<Button>(R.id.btnTemplate_main)
+        val btnFlights_main = findViewById<Button>(R.id.btnFlights_main)
         btnFlights_main.setOnClickListener(View.OnClickListener{ view->
-            //fli_
+            util.openActivity(this, fli_BookingsRegister::class.java)
         })
 
         val btnRent_main = findViewById<Button>(R.id.btnTemplate_main)
