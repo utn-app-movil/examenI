@@ -1,0 +1,22 @@
+<resources>
+    <string name="dash_contribution_dashboard">Contribution Dashboard</string>
+    <string name="dash_person_hint">Person Name</string>
+    <string name="dash_contributions_hint">Total Contributions</string>
+    <string name="dash_day_hint">Day</string>
+    <string name="dash_month_hint">Month</string>
+    <string name="dash_year_hint">Year</string>
+    <string name="dash_save">Save</string>
+    <string name="dash_search">Search</string>
+    <string name="dash_update">Update</string>
+    <string name="dash_delete">Delete</string>
+
+    <!-- Toast Messages -->
+    <string name="dash_toast_saved">Contribution saved</string>
+    <string name="dash_toast_exists">Contribution already exists for this month and year</string>
+    <string name="dash_toast_updated">Contribution updated</string>
+    <string name="dash_toast_deleted">Contribution deleted</string>
+    <string name="dash_toast_not_found">Contribution not found</string>
+    <string name="dash_toast_fill_fields">Please fill all fields</string>
+    <string name="dash_toast_search_criteria">Please enter Person, Month, and Year to search</string>
+    <string name="dash_toast_delete_criteria">Please enter Person, Month, and Year to delete</string>
+</resources>

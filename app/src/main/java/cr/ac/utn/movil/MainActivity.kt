@@ -1,4 +1,6 @@
 package cr.ac.utn.movil
+
+import android.content.Intent
 import cr.ac.utn.movil.activities.PayenInsuranceListActivity
 import cr.ac.utn.movil.util.util
 import android.os.Bundle
@@ -9,6 +11,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import cr.ac.utn.movil.ui.vac_VaccineActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,8 +23,6 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
-
 
         val btnAppointment_main = findViewById<Button>(R.id.btnTemplate_main)
         btnAppointment_main.setOnClickListener(View.OnClickListener{ view->
@@ -124,11 +125,10 @@ class MainActivity : AppCompatActivity() {
             //dash_
         })
 
-        val btnPaymentEnsurance_main = findViewById<Button>(R.id.btnPaymentEnsurance_main)
-        btnPaymentEnsurance_main.setOnClickListener {
-            util.openActivity(this, PayenInsuranceListActivity::class.java)
-        }
-
+        val btnPaymentEnsurance_main = findViewById<Button>(R.id.btnTemplate_main)
+        btnPaymentEnsurance_main.setOnClickListener(View.OnClickListener{ view->
+            //payen_
+        })
 
         val btnMarketing_main = findViewById<Button>(R.id.btnTemplate_main)
         btnMarketing_main.setOnClickListener(View.OnClickListener{ view->
