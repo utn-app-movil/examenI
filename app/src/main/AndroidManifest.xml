@@ -13,6 +13,23 @@
         android:theme="@style/Theme.ExamenI">
 
         <activity
+            android:name=".fli_BookingsRegister"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".activity_app_citas"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -37,6 +54,14 @@
         <activity
             android:name=".DashActivity"
             android:label="@string/dash_contribution_dashboard" />
+
+        <activity
+            android:name=".med_MedCheckingActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".LibLibraryActivity"
+            android:exported="false" />
 
         <activity android:name=".activities.PayenInsuranceListActivity" />
         <activity android:name=".activities.PayenInsuranceFormActivity" />
