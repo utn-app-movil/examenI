@@ -21,8 +21,7 @@ object MemoryDataManager: IDataManager {
     override fun getAll()= objectList
 
     override fun getById(id: String): Identifier? {
-        val result = objectList.
-        filter { it.ID.trim() == id.trim()}
+        val result = objectList.filter { it.ID.trim() == id.trim()}
         return if(result.any()) result[0] else null
     }
 }

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LibLibraryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/lib_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lib_reservation_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/lib_student_details_label_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lib_student_details_label"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/lib_student_details_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/lib_student_details_label"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:background="@drawable/lib_border_drawable"
+            android:minHeight="48dp"
+            /> <TextView
+        android:id="@+id/lib_reserved_books_label_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lib_reserved_books_label"
+        android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/lib_reserved_books_selected_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lib_border_drawable"
+            android:padding="12dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:hint="@string/lib_book_selection_hint"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/lib_reservation_date_label_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lib_reservation_date_label"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/lib_reservation_date_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lib_border_drawable"
+            android:padding="12dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginBottom="16dp"
+            tools:text="11/20/2025 05:52 PM"/>
+
+        <TextView
+            android:id="@+id/lib_return_date_label_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lib_return_date_label"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/lib_return_date_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lib_border_drawable"
+            android:padding="12dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginBottom="16dp"
+            tools:text="11/25/2025"/>
+
+        <TextView
+            android:id="@+id/lib_library_branch_label_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lib_library_branch_label"
+            android:textSize="16sp"/>
+        <Spinner
+            android:id="@+id/lib_library_branch_sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>
