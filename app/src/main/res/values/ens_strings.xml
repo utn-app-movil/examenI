@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ens_hint_policy_number">Policy Number</string>
+    <string name="ens_hint_start_date">Start Date (yyyy-MM-dd)</string>
+    <string name="ens_hint_end_date">End Date (yyyy-MM-dd)</string>
+    <string name="ens_hint_premium">Premium</string>
+    <string name="ens_btn_save">Save Policy</string>
+    <string name="ens_title_list">Business Insurance Policies</string>
+    <string name="ens_title_form">Policy Form</string>
+    <string name="ens_menu_edit">Edit</string>
+    <string name="ens_menu_delete">Delete</string>
+    <string name="ens_msg_policy_exists">Policy number already exists</string>
+    <string name="ens_msg_end_before_start">End date must be after start date</string>
+    <string name="ens_msg_fill_all">Fill all fields</string>
+    <string name="ens_msg_deleted">Policy deleted</string>
+</resources>

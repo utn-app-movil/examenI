@@ -11,6 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ExamenI">
+        <activity
+            android:name=".Activity_ens_list"
+            android:exported="false" />
+
+        <activity
+            android:name=".Activity_ens_form"
+            android:exported="false" />
 
         <activity
             android:name=".MainActivity"

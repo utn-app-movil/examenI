@@ -1,5 +1,6 @@
 package cr.ac.utn.movil
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -133,7 +134,8 @@ class MainActivity : AppCompatActivity() {
 
         val btnEnsurance_main = findViewById<Button>(R.id.btnTemplate_main)
         btnEnsurance_main.setOnClickListener(View.OnClickListener{ view->
-            //ens_
+            val intent = Intent(this, Activity_ens_list::class.java)
+            startActivity(intent)
         })
 
         val btnVehicle_main = findViewById<Button>(R.id.btnTemplate_main)
