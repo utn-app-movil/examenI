@@ -21,6 +21,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".autonomy.AutonomyActivity"
+            android:exported="true"
+            android:label="@string/TextAutonomyVehicleId"
+            android:theme="@style/Theme.ExamenI" />
+
     </application>
 
 </manifest>
