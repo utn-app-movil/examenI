@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ErrorMsgAdd_notif">Error al crear la notificacion</string>
+    <string name="ErrorMsgUpdate_notif">Error al actualizar la notificacion</string>
+    <string name="ErrorMsgRemove_notif">Error al eliminar la notificación</string>
+    <string name="ErroMsgGetAll_notif">Error al obtener toda la notificaciones</string>
+    <string name="ErrorGetById_notif">Error al obtner por id la notificacion</string>
+</resources>
