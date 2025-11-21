@@ -1,0 +1,14 @@
+
+<resources>
+    <string name="ErrorMsgAdd_notif">Error al crear la notificacion</string>
+    <string name="ErrorMsgUpdate_notif">Error al actualizar la notificacion</string>
+    <string name="ErrorMsgRemove_notif">Error al eliminar la notificación</string>
+    <string name="ErroMsgGetAll_notif">Error al obtener toda la notificaciones</string>
+    <string name="ErrorGetById_notif">Error al obtner por id la notificacion</string>
+    <string name="NoPeopleRegistered">No hay gente registarada</string>
+    <string name="PersonNotRegisted">Persona no registrada</string>
+    <string name="NotSelected">No seleccionada</string>
+    <string name="Incomplete">Data Incomplete</string>
+    <string name="Senders">Senders</string>
+    <string name="AddAnId">Añada un ID</string>
+</resources>
