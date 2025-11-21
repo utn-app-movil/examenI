@@ -103,9 +103,10 @@ class MainActivity : AppCompatActivity() {
             //ship_
         })
 
-        val btnLibrary_main = findViewById<Button>(R.id.btnTemplate_main)
+        val btnLibrary_main = findViewById<Button>(R.id.btnLibrary_main)
         btnLibrary_main.setOnClickListener(View.OnClickListener{ view->
             //lib_
+            util.openActivity(this, LibLibraryActivity::class.java)
         })
 
         val btnExchange_main = findViewById<Button>(R.id.btnTemplate_main)
