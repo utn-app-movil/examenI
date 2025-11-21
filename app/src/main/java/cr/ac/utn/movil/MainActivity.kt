@@ -47,11 +47,10 @@ class MainActivity : AppCompatActivity() {
             cr.ac.utn.movil.util.util.openActivity(this, med_MedCheckingActivity::class.java)
         })
 
-
-
-        val btnClients_main = findViewById<Button>(R.id.btnTemplate_main)
+        val btnClients_main = findViewById<Button>(R.id.btnClients_main)
         btnClients_main.setOnClickListener(View.OnClickListener{ view->
             //cli_
+            util.openActivity(this, cli_GesClientesActivity::class.java)
         })
 
         val btnFlights_main = findViewById<Button>(R.id.btnFlights_main)

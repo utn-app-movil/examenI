@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="cli_txtcompanyName">CompanyName</string>
+    <string name="cli_txtlegalId">legalId</string>
+    <string name="cli_txtprovince">province</string>
+    <string name="cli_txtcanton">canton</string>
+    <string name="cli_txtdistrict">district</string>
+    <string name="cli_txtservices">services</string>
+
+
+    <string name="service_internet">Business Internet</string>
+    <string name="service_telefonia">IP Telephony</string>
+    <string name="service_hosting">Hosting</string>
+    <string name="service_soporte">Technical Support</string>
+
+
+</resources>

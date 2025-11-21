@@ -48,6 +48,7 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.recyclerview)
+    implementation(libs.androidx.media3.common.ktx)
 
     implementation(libs.androidx.media3.common.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

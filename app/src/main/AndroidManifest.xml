@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExamenI">
         <activity
+            android:name=".cli_GesClientesActivity"
+            android:exported="false" />
+      
+        <activity
             android:name=".NotificationActivity"
             android:exported="false" />
 
