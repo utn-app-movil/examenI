@@ -11,7 +11,54 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ExamenI">
+        <activity
+            android:name=".sin_SinpeActivity"
+            android:exported="false" />
 
+        <activity
+            android:name=".cli_GesClientesActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MarkListActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".MarkFormActivity"
+            android:exported="false"
+            android:parentActivityName=".MarkListActivity" />
+
+        <activity
+            android:name=".EventosActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".fli_BookingsRegister"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".activity_app_citas"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".train_TrainingEnrollmentFormActivity"
+            android:exported="true" />
+        <activity
+            android:name=".train_TrainingEnrollmentListActivity"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -21,6 +68,45 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".autonomy.AutonomyActivity"
+            android:exported="true"
+            android:label="@string/TextAutonomyVehicleId"
+            android:theme="@style/Theme.ExamenI" />
+
+        <activity
+            android:name=".prod_ProductionOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.vac_VaccineActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".PayrollActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".PayrollFormActivity"
+            android:exported="false"
+            android:parentActivityName=".PayrollActivity" />
+
+        <activity
+            android:name=".DashActivity"
+            android:label="@string/dash_contribution_dashboard" />
+
+        <activity
+            android:name=".ui.RentActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".med_MedCheckingActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".LibLibraryActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
