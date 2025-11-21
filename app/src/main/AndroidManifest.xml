@@ -12,6 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExamenI">
 
+        <activity
+            android:name=".fli_BookingsRegister"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
 
         <activity
             android:name=".activity_app_citas"
