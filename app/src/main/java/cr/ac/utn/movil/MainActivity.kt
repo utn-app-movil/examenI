@@ -121,6 +121,8 @@ class MainActivity : AppCompatActivity() {
         val btnTraining_main = findViewById<Button>(R.id.btnTemplate_main)
         btnTraining_main.setOnClickListener(View.OnClickListener{ view->
             //train_
+            util.openActivity(this, train_TrainingEnrollmentFormActivity::class.java)
+
         })
 
         val btnNotification_main = findViewById<Button>(R.id.btnNotification_main)
