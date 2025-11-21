@@ -1,5 +1,6 @@
 package cr.ac.utn.movil
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -8,6 +9,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import identities.recru_Form
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -66,9 +68,12 @@ class MainActivity : AppCompatActivity() {
             //pha_
         })
 
-        val btnRecruitering_main = findViewById<Button>(R.id.btnTemplate_main)
+        val btnRecruitering_main = findViewById<Button>(R.id.btnRecruitering_main)
         btnRecruitering_main.setOnClickListener(View.OnClickListener{ view->
-            //recru_
+
+            val intent = Intent(this, recru_alex::class.java)
+            startActivity(intent)
+
         })
 
         val btnBidding_main = findViewById<Button>(R.id.btnTemplate_main)
