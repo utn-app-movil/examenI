@@ -31,6 +31,10 @@
         <activity
             android:name=".LibLibraryActivity"
             android:exported="false" />
+        
+        <activity
+            android:name=".ui.vac_VaccineActivity"
+            android:exported="false" />
       
         <activity
             android:name=".MainActivity"
@@ -43,10 +47,13 @@
       
         <activity
             android:name=".recru_alex"
+            android:exported="false" />
+
+        <activity
             android:name=".PayrollFormActivity"
             android:exported="false"
             android:parentActivityName=".PayrollActivity" />
-      
+
         <activity
             android:name=".DashActivity"
             android:label="@string/dash_contribution_dashboard" />
