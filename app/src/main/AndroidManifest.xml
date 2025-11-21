@@ -31,7 +31,7 @@
         <activity
             android:name=".LibLibraryActivity"
             android:exported="false" />
-
+      
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -40,9 +40,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+      
         <activity
             android:name=".recru_alex"
+            android:name=".PayrollFormActivity"
+            android:exported="false"
+            android:parentActivityName=".PayrollActivity" />
+      
+        <activity
+            android:name=".DashActivity"
+            android:label="@string/dash_contribution_dashboard" />
+      
+        <activity
+            android:name=".ui.RentActivity"
+            android:exported="false" />
+      
+        <activity
+            android:name=".med_MedCheckingActivity"
             android:exported="false" />
 
     </application>
