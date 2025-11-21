@@ -11,6 +11,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import cr.ac.utn.movil.ui.vac_VaccineActivity
 import cr.ac.utn.movil.util.util
+import cr.ac.utn.movil.ui.RentActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -53,10 +54,12 @@ class MainActivity : AppCompatActivity() {
             //fli_
         })
 
-        val btnRent_main = findViewById<Button>(R.id.btnTemplate_main)
-        btnRent_main.setOnClickListener(View.OnClickListener{ view->
-            //rent_
-        })
+        val btnRent_main = findViewById<Button>(R.id.btnRent_main)
+        btnRent_main.setOnClickListener {
+            val intent = Intent(this, RentActivity::class.java)
+            startActivity(intent)
+        }
+
 
         val btnEvents_main = findViewById<Button>(R.id.btnTemplate_main)
         btnEvents_main.setOnClickListener(View.OnClickListener{ view->

@@ -27,6 +27,7 @@
         <activity
             android:name=".DashActivity"
             android:label="@string/dash_contribution_dashboard" />
+        <activity android:name=".ui.RentActivity" />
     </application>
 
 </manifest>

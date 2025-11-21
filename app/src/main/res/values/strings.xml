@@ -19,5 +19,6 @@
     <string name="TextTitleDialogQuestion">Question...</string>
     <string name="TextSaveActionQuestion">Are you sure to save the information?</string>
     <string name="TextDeleteActionQuestion">Are you sure to delete the information?</string>
+    <string name="title_activity_main">MainActivity</string>
     <!-- NO CHANGE ANY ITEM -->
 </resources>
