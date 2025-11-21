@@ -8,6 +8,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import cr.ac.utn.movil.util.util
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -56,9 +57,9 @@ class MainActivity : AppCompatActivity() {
             //rent_
         })
 
-        val btnEvents_main = findViewById<Button>(R.id.btnTemplate_main)
-        btnEvents_main.setOnClickListener(View.OnClickListener{ view->
-            //eve_
+        val btnEvents_main = findViewById<Button>(R.id.btnEvents_main)
+        btnEvents_main.setOnClickListener(View.OnClickListener { view ->
+            util.openActivity(this, EventosActivity::class.java)
         })
 
         val btnPharmacy_main = findViewById<Button>(R.id.btnTemplate_main)
