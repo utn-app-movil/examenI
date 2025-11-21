@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Title -->
+    <string name="vac_title">Vaccine control</string>
+
+    <!-- Labels -->
+    <string name="vac_label_patient_name">Patient name</string>
+    <string name="vac_label_patient_id">Patient ID</string>
+    <string name="vac_label_vaccine_type">Vaccine type</string>
+    <string name="vac_label_vaccine_site">Site</string>
+    <string name="vac_label_vaccine_datetime">Date and time (dd/MM/yyyy HH:mm)</string>
+
+    <!-- Errors / messages específicos del módulo -->
+    <string name="vac_error_invalid_datetime">The date and time are not valid.</string>
+    <string name="vac_error_future_datetime">The date and time cannot be in the future.</string>
+
+</resources>
