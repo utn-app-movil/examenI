@@ -1,5 +1,6 @@
 package cr.ac.utn.movil
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -82,9 +83,10 @@ class MainActivity : AppCompatActivity() {
             //sin_
         })
 
-        val btnPayroll_main = findViewById<Button>(R.id.btnTemplate_main)
+        val btnPayroll_main = findViewById<Button>(R.id.btnPayroll_main)
         btnPayroll_main.setOnClickListener(View.OnClickListener{ view->
-            //pay_
+            val intent = Intent(this, PayrollActivity::class.java)
+            startActivity(intent)
         })
 
         val btnInventory_main = findViewById<Button>(R.id.btnTemplate_main)

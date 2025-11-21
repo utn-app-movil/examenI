@@ -24,6 +24,16 @@
         <activity
             android:name=".ui.vac_VaccineActivity"
             android:exported="false" />
+
+        <activity
+            android:name=".PayrollActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".PayrollFormActivity"
+            android:exported="false"
+            android:parentActivityName=".PayrollActivity" />
     </application>
 
 </manifest>
