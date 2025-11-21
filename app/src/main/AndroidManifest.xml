@@ -37,6 +37,11 @@
         <activity
             android:name=".DashActivity"
             android:label="@string/dash_contribution_dashboard" />
+
+        <activity
+            android:name=".med_MedCheckingActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
