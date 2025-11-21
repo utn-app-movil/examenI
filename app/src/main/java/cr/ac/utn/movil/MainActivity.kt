@@ -1,5 +1,6 @@
 package cr.ac.utn.movil
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -8,6 +9,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.media3.common.util.Util
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,10 +23,12 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        val btnAppointment_main = findViewById<Button>(R.id.btnTemplate_main)
-        btnAppointment_main.setOnClickListener(View.OnClickListener{ view->
-            //app_
-        })
+        val btnAppointment = findViewById<Button>(R.id.btnAppointment_main)
+        btnAppointment.setOnClickListener {
+            val intent = Intent(this, activity_app_citas::class.java)
+            startActivity(intent)
+        }
+
 
         val btnVaccine_main = findViewById<Button>(R.id.btnTemplate_main)
         btnVaccine_main.setOnClickListener(View.OnClickListener{ view->
