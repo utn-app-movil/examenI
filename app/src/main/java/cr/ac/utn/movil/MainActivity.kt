@@ -1,5 +1,6 @@
 package cr.ac.utn.movil
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -117,9 +118,9 @@ class MainActivity : AppCompatActivity() {
             //notif_
         })
 
-        val btnDashboard_main = findViewById<Button>(R.id.btnTemplate_main)
+        val btnDashboard_main = findViewById<Button>(R.id.btnDashboard_main)
         btnDashboard_main.setOnClickListener(View.OnClickListener{ view->
-            //dash_
+            util.openActivity(this, DashActivity::class.java)
         })
 
         val btnPaymentEnsurance_main = findViewById<Button>(R.id.btnTemplate_main)
