@@ -23,6 +23,12 @@
 
 
         <activity
+            android:name=".train_TrainingEnrollmentFormActivity"
+            android:exported="true" />
+        <activity
+            android:name=".train_TrainingEnrollmentListActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
