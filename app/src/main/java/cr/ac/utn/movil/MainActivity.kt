@@ -8,6 +8,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import cr.ac.utn.movil.util.util
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -111,9 +112,9 @@ class MainActivity : AppCompatActivity() {
             //train_
         })
 
-        val btnNotification_main = findViewById<Button>(R.id.btnTemplate_main)
+        val btnNotification_main = findViewById<Button>(R.id.btnNotification_main)
         btnNotification_main.setOnClickListener(View.OnClickListener{ view->
-            //notif_
+            util.openActivity(this, NotificationActivity::class.java)
         })
 
         val btnDashboard_main = findViewById<Button>(R.id.btnTemplate_main)

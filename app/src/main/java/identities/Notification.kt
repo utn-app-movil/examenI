@@ -6,24 +6,27 @@ import java.time.LocalDate
 
 class Notification: Identifier  {
 
-    private lateinit var sender: Person // Datos de la persona que envía el correo.
-    private var message: String = "" //Mensaje El contenido del cuerpo del correo, que debe ser claro y gramaticalmente correcto.
-    private var title: String = "" //Título Asunto del correo.
-    private lateinit var dateSent: LocalDate //Fecha de envío Debe ser una fecha posterior al día actual.
-    private lateinit var cc: MutableList<Person> // Lista de destinatarios con copia
-    private lateinit var cco: MutableList<Person> // Lista de destinatarios con copia oculta
-    private lateinit var receivers: MutableList<Person> // Destinatarios Lista de personas seleccionadas a través de un sistema de selección múltiple
+    private var sender: Person? = null
+    private var message: String = ""
+    private var title: String = ""
+    private var dateSent: LocalDate? = null
+    private var cc: MutableList<Person> = mutableListOf()
+    private var cco: MutableList<Person> = mutableListOf()
+    private var receivers: MutableList<Person> = mutableListOf()
 
     constructor()
+
     constructor(
+        id: String,
         sender: Person,
-        tittle: String,
+        title: String,
         message: String,
         cc: MutableList<Person>,
         dateSent: LocalDate,
         cco: MutableList<Person>,
         receivers: MutableList<Person>
     ) {
+        this.ID = id
         this.sender = sender
         this.title = title
         this.message = message
@@ -34,7 +37,7 @@ class Notification: Identifier  {
     }
 
     var Sender: Person
-        get() = this.sender
+        get() = this.sender ?: Person()
         set(value) {this.sender = value}
 
     var Message: String
@@ -46,7 +49,7 @@ class Notification: Identifier  {
         set(value) {this.title = value}
 
     var DateSent: LocalDate
-        get() = this.dateSent
+        get() = this.dateSent ?: LocalDate.now()
         set(value) {this.dateSent = value}
 
     var Cc: MutableList<Person>
@@ -61,9 +64,9 @@ class Notification: Identifier  {
         get() = this.receivers
         set(value) {this.receivers = value}
 
-
-    override val FullDescription = "Sender: $Sender, Title: $Title, Message: $Message,  Date sent: $DateSent "
+    override val FullDescription: String
+        get() = "Sender: ${sender?.Name ?: "N/A"}, Title: $Title, Message: $Message, Date sent: ${dateSent ?: "N/A"}"
 
     override val FullName: String
-        get() = TODO("Not yet implemented")
+        get() = Title
 }
