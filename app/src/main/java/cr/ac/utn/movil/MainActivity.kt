@@ -8,6 +8,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import cr.ac.utn.movil.autonomy.AutonomyActivity
 import cr.ac.utn.movil.util.util
 import cr.ac.utn.movil.ui.vac_VaccineActivity
 import cr.ac.utn.movil.ui.RentActivity
@@ -148,6 +149,7 @@ class MainActivity : AppCompatActivity() {
 
         val btnVehicle_main = findViewById<Button>(R.id.btnTemplate_main)
         btnVehicle_main.setOnClickListener(View.OnClickListener{ view->
+            util.openActivity(this, AutonomyActivity::class.java)
             //veh_
         })
 
