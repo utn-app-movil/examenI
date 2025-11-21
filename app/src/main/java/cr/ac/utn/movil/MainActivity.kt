@@ -8,9 +8,10 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import cr.ac.utn.movil.util.EXTRA_ID
+import cr.ac.utn.movil.ui.vac_VaccineActivity
 import cr.ac.utn.movil.autonomy.AutonomyActivity
 import cr.ac.utn.movil.util.util
-import cr.ac.utn.movil.ui.vac_VaccineActivity
 import cr.ac.utn.movil.ui.RentActivity
 
 class MainActivity : AppCompatActivity() {
@@ -153,9 +154,10 @@ class MainActivity : AppCompatActivity() {
             //veh_
         })
 
-        val btnProduction_main = findViewById<Button>(R.id.btnTemplate_main)
+        val btnProduction_main = findViewById<Button>(R.id.btnProduction_main)
         btnProduction_main.setOnClickListener(View.OnClickListener{ view->
-            //prod_
+            util.openActivity(this, prod_ProductionOrderActivity::class.java,
+                EXTRA_ID, "prod_")
         })
 
         val btnWater_main = findViewById<Button>(R.id.btnTemplate_main)

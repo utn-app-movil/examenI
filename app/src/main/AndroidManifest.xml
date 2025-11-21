@@ -52,6 +52,9 @@
             android:theme="@style/Theme.ExamenI" />
       
         <activity
+            android:name=".prod_ProductionOrderActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.vac_VaccineActivity"
             android:exported="false" />
 
