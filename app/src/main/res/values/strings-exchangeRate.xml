@@ -20,4 +20,22 @@
         <item>Davivienda</item>
         <item>Mutual Alajuela</item>
     </string-array>
+    <string name="exch_msg_incomplete_invalid">Incomplete or invalid information.</string>
+    <string name="exch_msg_invalid_date">The selected date is invalid.</string>
+    <string name="exch_msg_future_date">The selected date cannot be in the future.</string>
+    <string name="exch_msg_invalid_amount">Invalid amount.</string>
+    <string name="exch_msg_missing_operation_type">Please select an operation type.</string>
+    <string name="exch_msg_missing_exchange_rate">Please select an exchange rate.</string>
+    <string name="exch_msg_saved_successfully">The transaction has been saved successfully.</string>
+    <string name="exch_msg_updated_successfully">The transaction has been updated successfully.</string>
+    <string name="exch_msg_deleted_successfully">The transaction was deleted successfully.</string>
+    <string name="exch_msg_not_found">No transaction found.</string>
+    <string name="exch_msg_error_saving">Error while saving the transaction.</string>
+    <string name="exch_msg_error_updating">Error while updating the transaction.</string>
+    <string name="exch_msg_error_deleting">Error while deleting the transaction.</string>
+    <string name="exch_msg_error_loading">Error while loading the transaction.</string>
+    <string name="exch_msg_duplicate_id">The ID already exists. Cannot register duplicate information.</string>
+    <string name="exch_msg_amount_to_pay">Amount to pay: %1$s</string>
+    <string name="TextUpdateActionQuestion">Are you sure to modify the information?</string>
+
 </resources>
