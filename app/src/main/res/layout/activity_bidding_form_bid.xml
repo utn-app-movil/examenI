@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="80dp">
+
+        <!-- Datos personales -->
+        <EditText
+            android:id="@+id/txtName_bid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/bid_label_name" />
+
+        <EditText
+            android:id="@+id/txtFLastName_bid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/bid_label_first_lastname" />
+
+        <EditText
+            android:id="@+id/txtSLastName_bid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/bid_label_second_lastname" />
+
+        <EditText
+            android:id="@+id/txtPhone_bid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="@string/bid_label_phone" />
+
+        <EditText
+            android:id="@+id/txtEmail_bid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/bid_label_email" />
+
+        <!-- Monto y fecha/hora -->
+        <EditText
+            android:id="@+id/txtAmount_bid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/bid_label_amount" />
+
+        <EditText
+            android:id="@+id/txtDateTime_bid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/bid_label_datetime" />
+
+        <!-- Lista de artículos -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/bid_label_articles" />
+
+        <ListView
+            android:id="@+id/lstArticles_bid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:choiceMode="singleChoice" />
+
+        <!-- Adjudicación -->
+        <CheckBox
+            android:id="@+id/chkAwarded_bid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/bid_label_awarded" />
+
+        <!-- Botones -->
+        <Button
+            android:id="@+id/btnSave_bid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/bid_button_save" />
+
+        <Button
+            android:id="@+id/btnCancel_bid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bid_button_cancel" />
+
+    </LinearLayout>
+</ScrollView>
