@@ -21,11 +21,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name=".med_MedCheckingActivity"
+            android:name=".ui.vac_VaccineActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".PayrollActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".PayrollFormActivity"
+            android:exported="false"
+            android:parentActivityName=".PayrollActivity" />
+        <activity
+            android:name=".DashActivity"
+            android:label="@string/dash_contribution_dashboard" />
     </application>
 
 </manifest>
