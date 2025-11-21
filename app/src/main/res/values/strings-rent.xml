@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Titles -->
+    <string name="rent_title_main">Vehicle Rentals</string>
+    <string name="rent_title_form">Rental Form</string>
+    <string name="rent_title_list">Rentals List</string>
+
+    <!-- Form fields -->
+    <string name="rent_hint_client_name">Client Name</string>
+    <string name="rent_hint_client_id">Client ID</string>
+    <string name="rent_hint_vehicle_type">Vehicle Type</string>
+    <string name="rent_hint_plate">Plate</string>
+    <string name="rent_hint_mileage">Mileage</string>
+    <string name="rent_hint_license">Driver License</string>
+
+    <!-- Buttons -->
+    <string name="rent_btn_add">Add Rental</string>
+    <string name="rent_btn_save">Save</string>
+    <string name="rent_btn_update">Update</string>
+    <string name="rent_btn_delete">Delete</string>
+    <string name="rent_btn_cancel">Cancel</string>
+
+    <!-- List fallback text -->
+    <string name="rent_empty_list">No rentals available.</string>
+
+    <!-- Vehicle types -->
+    <string name="rent_type_hatchback">Hatchback</string>
+    <string name="rent_type_sedan">Sedan</string>
+    <string name="rent_type_suv">SUV</string>
+    <string name="rent_type_microbus">Microbus</string>
+
+</resources>
