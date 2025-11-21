@@ -47,11 +47,16 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.recyclerview)
 <<<<<<< HEAD
+<<<<<<< HEAD
     implementation(libs.androidx.media3.common.ktx)
 =======
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
 >>>>>>> d1d7188 (Test 1- Cristy Wilson)
+=======
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
+>>>>>>> d1d71882d9aa8139c9403c99535b31fce6adaaa7
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
