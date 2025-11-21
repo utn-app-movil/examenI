@@ -21,6 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".DashActivity"
+            android:label="@string/dash_contribution_dashboard" />
     </application>
 
 </manifest>
