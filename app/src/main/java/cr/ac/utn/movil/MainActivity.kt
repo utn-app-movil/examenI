@@ -1,5 +1,6 @@
 package cr.ac.utn.movil
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -8,8 +9,10 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import util.util
 
 class MainActivity : AppCompatActivity() {
+    @SuppressLint("CutPasteId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -101,9 +104,11 @@ class MainActivity : AppCompatActivity() {
             //lib_
         })
 
-        val btnExchange_main = findViewById<Button>(R.id.btnTemplate_main)
+        val btnExchange_main = findViewById<Button>(R.id.btnExchange_main)
         btnExchange_main.setOnClickListener(View.OnClickListener{ view->
             //exch_
+            util.openActivity(this,exch_ExchangeTransactionActivity::class.java)
+
         })
 
         val btnTraining_main = findViewById<Button>(R.id.btnTemplate_main)
