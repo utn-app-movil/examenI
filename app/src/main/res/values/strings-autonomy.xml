@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="TextAutonomyVehicleId">Vehicle ID</string>
+    <string name="TextAutonomyChargeDate">Charge Date</string>
+    <string name="TextAutonomyEstimatedRange">Estimated Range-km</string>
+    <string name="TextAutonomyBatteryInitial">Initial Battery-%</string>
+    <string name="TextAutonomyBatteryFinal">Final Battery-%</string>
+    <string name="TextAutonomyVehicleBrand">Vehicle Brand</string>
+    <string name="TextAutonomyVehicleOwner">Owner Name</string>
+    <string name="TextAutonomyVehicleType">Vehicle Type</string>
+    <string name="TextAutonomyTypeSedan">Sedan</string>
+    <string name="TextAutonomyTypeCargo">Cargo</string>
+    <string name="TextAutonomyTypeSUV">SUV</string>
+    <string name="TextAutonomyTypeVan">Van</string>
+    <string name="BtnAutonomySave">Save</string>
+    <string name="BtnAutonomyUpdate">Update</string>
+    <string name="BtnAutonomyDelete">Delete</string>
+    <string name="BtnAutonomyClear">Clear</string>
+    <string name="MsgAutonomySaved">Record saved</string>
+    <string name="MsgAutonomyUpdated">Record updated</string>
+    <string name="MsgAutonomyDeleted">Record deleted</string>
+    <string name="MsgAutonomyDuplicate">Duplicate record for the same vehicle and date</string>
+    <string name="MenuAutonomyAdd">Add</string>
+    <string name="MenuAutonomyEdit">Edit</string>
+    <string name="MenuAutonomyDelete">Delete</string>
+    <string name="MsgErrorAutonomyRange">Estimated range must be greater than 0 km</string>
+    <string name="MsgErrorAutonomyFinalPercent">Final battery percentage cannot exceed 100%</string>
+    <string name="MsgErrorAutonomyInitialPercent">Initial battery percentage must be between 0 and 100</string>
+    <string name="MsgErrorAutonomyBrand">Vehicle brand is required</string>
+    <string name="MsgErrorAutonomyOwner">Owner name is required</string>
+    <string name="MsgErrorAutonomyType">Vehicle type is required</string>
+    <string name="MsgErrorAutonomyVehicleId">Vehicle ID is required</string>
+    <string name="MsgErrorAutonomyDate">Charge date is required</string>
+</resources>
