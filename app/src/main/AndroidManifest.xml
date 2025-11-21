@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExamenI">
         <activity
+            android:name=".NotificationActivity"
+            android:exported="false" />
+
+        <activity 
             android:name=".EventosActivity"
             android:exported="false" />
 
@@ -31,7 +35,6 @@
                 android:value=".MainActivity" />
         </activity>
 
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -41,6 +44,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+      
         <activity
             android:name=".ui.vac_VaccineActivity"
             android:exported="false" />
@@ -54,13 +58,14 @@
             android:name=".PayrollFormActivity"
             android:exported="false"
             android:parentActivityName=".PayrollActivity" />
+      
         <activity
             android:name=".DashActivity"
             android:label="@string/dash_contribution_dashboard" />
+      
         <activity
             android:name=".ui.RentActivity"
             android:exported="false" />
-
 
         <activity
             android:name=".med_MedCheckingActivity"
