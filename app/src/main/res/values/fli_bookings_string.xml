@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- STRINGS ESPECÍFICOS PARA EL MÓDULO DE VUELOS -->
+    <!-- Solo incluye strings NUEVOS que no existen en strings.xml -->
+
+    <!-- Mensajes de validación específicos de vuelos -->
+    <string name="fli_ErrorInvalidFlyNumber">Invalid fly number format. Use format like AB1234.</string>
+    <string name="fli_ErrorDateInPast">Flight date and time must be in the future.</string>
+    <string name="fli_ErrorSameCountries">Origin and destination countries cannot be the same.</string>
+    <string name="fli_ErrorIncompleteData">Incomplete data. Please fill all fields.</string>
+    <string name="fli_ErrorInvalidPhone">Invalid phone number. Must be at least 8 digits.</string>
+    <string name="fli_ErrorInvalidEmail">Invalid email format.</string>
+
+    <!-- Array de países para spinners -->
+    <string-array name="fli_countries_array">
+        <item>Select a country</item>
+        <item>Costa Rica</item>
+        <item>United States</item>
+        <item>Mexico</item>
+        <item>Canada</item>
+        <item>Panama</item>
+        <item>Nicaragua</item>
+        <item>Honduras</item>
+        <item>Guatemala</item>
+        <item>El Salvador</item>
+        <item>Colombia</item>
+        <item>Argentina</item>
+        <item>Brazil</item>
+        <item>Chile</item>
+        <item>Peru</item>
+        <item>Ecuador</item>
+        <item>Venezuela</item>
+        <item>Spain</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Italy</item>
+        <item>United Kingdom</item>
+        <item>Japan</item>
+        <item>China</item>
+        <item>South Korea</item>
+        <item>Australia</item>
+    </string-array>
+</resources>
