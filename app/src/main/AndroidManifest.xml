@@ -34,6 +34,9 @@
             android:name=".PayrollFormActivity"
             android:exported="false"
             android:parentActivityName=".PayrollActivity" />
+        <activity
+            android:name=".DashActivity"
+            android:label="@string/dash_contribution_dashboard" />
     </application>
 
 </manifest>
