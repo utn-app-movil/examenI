@@ -120,8 +120,7 @@ class MainActivity : AppCompatActivity() {
 
         val btnDashboard_main = findViewById<Button>(R.id.btnDashboard_main)
         btnDashboard_main.setOnClickListener(View.OnClickListener{ view->
-            val intent = Intent(this, DashActivity::class.java)
-            startActivity(intent)
+            util.openActivity(this, DashActivity::class.java)
         })
 
         val btnPaymentEnsurance_main = findViewById<Button>(R.id.btnTemplate_main)

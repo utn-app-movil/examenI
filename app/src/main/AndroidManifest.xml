@@ -22,6 +22,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".ui.vac_VaccineActivity"
+            android:exported="false" />
+        <activity
             android:name=".DashActivity"
             android:label="@string/dash_contribution_dashboard" />
     </application>
