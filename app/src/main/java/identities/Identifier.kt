@@ -1,4 +1,5 @@
-package cr.ac.utn.movil.identities
+package identities
+
 
 abstract class Identifier {
     private var _id: String =""

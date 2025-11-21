@@ -1,13 +1,13 @@
-// app/src/main/java/cr/ac/utn/movil/Activity_ens_list.kt
 package cr.ac.utn.movil
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import cr.ac.utn.movil.controllers.EnsController
+import controller.EnsController
 import cr.ac.utn.movil.databinding.ActivityEnsListBinding
 import ens_adapter.EnsAdapter
+import identities.EnsPolicy
 
 class Activity_ens_list : AppCompatActivity() {
 
@@ -52,13 +52,13 @@ class Activity_ens_list : AppCompatActivity() {
         adapter.updateData(list)
     }
 
-    private fun editPolicy(policy: cr.ac.utn.movil.entities.EnsPolicy) {
+    private fun editPolicy(policy: identities.EnsPolicy) {
         val intent = Intent(this, Activity_ens_form::class.java)
         intent.putExtra("ENS_POLICY_ID", policy.ID)
         startActivity(intent)
     }
 
-    private fun deletePolicy(policy: cr.ac.utn.movil.entities.EnsPolicy) {
+    private fun deletePolicy(policy: identities.EnsPolicy) {
         EnsController.delete(policy.ID)
         loadPolicies()
         toast(getString(R.string.ens_msg_deleted))

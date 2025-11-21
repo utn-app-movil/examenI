@@ -1,4 +1,4 @@
-package cr.ac.utn.movil.identities
+package identities
 
 open class Person: Identifier {
     private var _name: String =""

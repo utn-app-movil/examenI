@@ -5,7 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import cr.ac.utn.movil.entities.EnsPolicy
+import identities.EnsPolicy
 
 class EnsAdapter(
     private val policies: MutableList<EnsPolicy>,

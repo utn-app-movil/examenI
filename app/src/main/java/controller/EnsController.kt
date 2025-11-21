@@ -1,8 +1,8 @@
-// app/src/main/java/cr/ac/utn/movil/controllers/EnsController.kt
-package cr.ac.utn.movil.controllers
 
-import cr.ac.utn.movil.data.MemoryDataManager
-import cr.ac.utn.movil.entities.EnsPolicy
+package controller
+
+import data.MemoryDataManager
+import identities.EnsPolicy
 
 object EnsController {
     fun add(policy: EnsPolicy) = MemoryDataManager.add(policy)

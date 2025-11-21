@@ -1,6 +1,6 @@
-package cr.ac.utn.movil.interfaces
+package interfaces
 
-import cr.ac.utn.movil.identities.Identifier
+import identities.Identifier
 
 interface IDataManager {
     fun add (obj: Identifier)

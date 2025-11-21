@@ -1,7 +1,5 @@
-// app/src/main/java/cr/ac/utn/movil/entities/EnsPolicy.kt
-package cr.ac.utn.movil.entities
+package identities
 
-import cr.ac.utn.movil.identities.Identifier
 
 class EnsPolicy : Identifier() {
     var company: String = ""
@@ -16,7 +14,6 @@ class EnsPolicy : Identifier() {
     override val FullName: String
         get() = "Póliza $ID"
 
-    // Para mostrar en la lista
     override fun toString(): String {
         return "Póliza $ID | $company | $insuranceType | $startDate → $endDate"
     }

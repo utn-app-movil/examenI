@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "cr.ac.utn.movil"
-        minSdk = 30
+        minSdk = 33
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
@@ -35,7 +35,7 @@ android {
     }
     buildFeatures {
         dataBinding = true
-        viewBinding = true 
+        viewBinding = true
     }
 }
 

@@ -1,15 +1,14 @@
-// app/src/main/java/cr/ac/utn/movil/Activity_ens_form.kt
 package cr.ac.utn.movil
 
 import android.app.DatePickerDialog
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import cr.ac.utn.movil.controllers.EnsController
+import controller.EnsController
 import cr.ac.utn.movil.databinding.ActivityEnsFormBinding
-import cr.ac.utn.movil.entities.EnsPolicy
 import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Locale
+import identities.EnsPolicy
 
 class Activity_ens_form : AppCompatActivity() {
 
@@ -22,15 +21,21 @@ class Activity_ens_form : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // *** INICIALIZAR BINDING ***
         binding = ActivityEnsFormBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        // *** TITULO DE LA ACTIVITY ***
         title = getString(R.string.ens_title_form)
+
+        // *** CONFIGURACIONES ***
         setupSpinners()
         setupDatePickers()
         loadPolicyIfEdit()
         setupSaveButton()
     }
+
 
     private fun setupSpinners() {
         binding.ensSpCompany.adapter = android.widget.ArrayAdapter(this, android.R.layout.simple_spinner_item, companies)

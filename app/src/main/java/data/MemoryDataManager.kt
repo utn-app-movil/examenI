@@ -1,7 +1,6 @@
-package cr.ac.utn.movil.data
-
-import cr.ac.utn.movil.interfaces.IDataManager
-import cr.ac.utn.movil.identities.Identifier
+package data
+import interfaces.IDataManager
+import identities.Identifier
 
 object MemoryDataManager: IDataManager {
     private var objectList = mutableListOf<Identifier>()
