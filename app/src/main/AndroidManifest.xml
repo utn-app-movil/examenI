@@ -24,6 +24,8 @@
         <activity
             android:name=".DashActivity"
             android:label="@string/dash_contribution_dashboard" />
+            android:name=".ui.vac_VaccineActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
