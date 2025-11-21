@@ -8,6 +8,10 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import cr.ac.utn.movil.util.util
+
+
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -41,9 +45,11 @@ class MainActivity : AppCompatActivity() {
             //med_
         })
 
-        val btnClients_main = findViewById<Button>(R.id.btnTemplate_main)
+        val btnClients_main = findViewById<Button>(R.id.btnClients_main)
         btnClients_main.setOnClickListener(View.OnClickListener{ view->
             //cli_
+            util.openActivity(this, cli_GesClientesActivity::class.java)
+
         })
 
         val btnFlights_main = findViewById<Button>(R.id.btnTemplate_main)
