@@ -9,8 +9,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import androidx.media3.common.util.Util
-
+import cr.ac.utn.movil.ui.vac_VaccineActivity
+import cr.ac.utn.movil.util.util
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,10 +30,9 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-        val btnVaccine_main = findViewById<Button>(R.id.btnTemplate_main)
+        val btnVaccine_main = findViewById<Button>(R.id.btnVaccine_main)
         btnVaccine_main.setOnClickListener(View.OnClickListener{ view->
-            //vac_
-
+            util.openActivity(this, vac_VaccineActivity::class.java)
         })
 
         val btnLicense_main = findViewById<Button>(R.id.btnTemplate_main)
@@ -86,9 +85,10 @@ class MainActivity : AppCompatActivity() {
             //sin_
         })
 
-        val btnPayroll_main = findViewById<Button>(R.id.btnTemplate_main)
+        val btnPayroll_main = findViewById<Button>(R.id.btnPayroll_main)
         btnPayroll_main.setOnClickListener(View.OnClickListener{ view->
-            //pay_
+            val intent = Intent(this, PayrollActivity::class.java)
+            startActivity(intent)
         })
 
         val btnInventory_main = findViewById<Button>(R.id.btnTemplate_main)
@@ -121,9 +121,9 @@ class MainActivity : AppCompatActivity() {
             //notif_
         })
 
-        val btnDashboard_main = findViewById<Button>(R.id.btnTemplate_main)
+        val btnDashboard_main = findViewById<Button>(R.id.btnDashboard_main)
         btnDashboard_main.setOnClickListener(View.OnClickListener{ view->
-            //dash_
+            util.openActivity(this, DashActivity::class.java)
         })
 
         val btnPaymentEnsurance_main = findViewById<Button>(R.id.btnTemplate_main)
