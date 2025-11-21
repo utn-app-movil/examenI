@@ -21,6 +21,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".med_MedCheckingActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
