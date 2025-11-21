@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Title -->
+    <string name="TextTitleEvents_evt">Cultural Events</string>
+
+    <!-- Personal Info -->
+    <string name="TextStudentId_evt">Student ID</string>
+    <string name="TextName_evt">Name</string>
+    <string name="TextFirstLastName_evt">First Last Name</string>
+    <string name="TextSecondLastName_evt">Second Last Name</string>
+    <string name="TextPhone_evt">Phone</string>
+    <string name="TextEmail_evt">Email</string>
+    <string name="TextAddress_evt">Address</string>
+    <string name="TextCountry_evt">Country</string>
+
+    <!-- Event Info -->
+    <string name="TextInstitution_evt">Institution</string>
+    <string name="TextEventLocation_evt">Event Location</string>
+    <string name="TextEventDate_evt">Event Date (DD/MM/YYYY)</string>
+    <string name="TextEventTime_evt">Event Time (HH:MM)</string>
+    <string name="TextSeatNumber_evt">Seat Number</string>
+    <string name="TextEventType_evt">Event Type</string>
+
+    <!-- Event Types Dropdown -->
+    <string name="TextSelectType_evt">Select type</string>
+    <string name="TextTheater_evt">Theater</string>
+    <string name="TextCinema_evt">Cinema</string>
+    <string name="TextConcert_evt">Concert</string>
+
+    <!-- Buttons -->
+    <string name="TextSearch_evt">Search</string>
+    <string name="TextClear_evt">Clear</string>
+    <string name="TextBack_evt">Back</string>
+    <string name="TextSave_evt">Save</string>
+    <string-array name="event_types_array">
+        <item>Theater</item>
+        <item>Cinema</item>
+        <item>Concert</item>
+    </string-array>
+
+
+    <!-- List -->
+    <string name="TextEventsList_evt">Registered Students</string>
+    <string name="TextNoEvents_evt">No students registered</string>
+
+    <!-- Validation Errors -->
+    <string name="ErrorEmptyFields_evt">Please fill all required fields</string>
+    <string name="ErrorInvalidDate_evt">Invalid date format</string>
+    <string name="ErrorInvalidTime_evt">Invalid time format</string>
+    <string name="ErrorDuplicateSeat_evt">Seat already taken for this event</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_sinpe">SINPE Mobile - Auction</string>
+    <string name="hint_origin_name">Origin name</string>
+    <string name="hint_origin_phone">Origin phone number</string>
+    <string name="hint_destination_name">Destination name</string>
+    <string name="hint_destination_phone">Destination phone number</string>
+    <string name="hint_amount">Bid amount</string>
+    <string name="hint_description">Details/description</string>
+    <string name="hint_date">Date (dd/MM/yyyy)</string>
+    <string name="hint_time">Time (HH:mm)</string>
+    <string name="btn_save_sinpe">Register SINPE</string>
+    <string name="error_empty_fields">You must complete all required fields. </string>
+    <string name="error_phone_destination_invalid">The destination phone number must have exactly 8 numeric digits.</string>
+    <string name="error_phone_same">The origin and destination phone numbers cannot be the same.</string>
+    <string name="error_date_future">The bid date and time cannot be later than the current date and time. </string>
+    <string name="error_amount_invalid">The amount must be numeric and greater than 0.</string>
+    <string name="msg_sinpe_saved">SINPE registered correctly.</string>
+    <string name="preview_title">SINPE Mobile transfer notification</string>
+    <string name="preview_body_1">We inform you that</string>
+    <string name="preview_body_2">made a transfer via SINPE Mobile to phone number</string>
+    <string name="preview_body_3">in the name of</string>
+    <string name="preview_reference">Reference:</string>
+    <string name="preview_date">Date:</string>
+    <string name="preview_time">Time:</string>
+    <string name="preview_amount">Amount:</string>
+    <string name="preview_detail">Details:</string>
+    <string name="preview_no_detail">(No details)</string>
+</resources>

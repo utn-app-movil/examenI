@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="person_name_hint">Person Name</string>
+    <string name="no_courses_selected">No courses selected</string>
+    <string name="select_courses_button">Select Courses</string>
+</resources>

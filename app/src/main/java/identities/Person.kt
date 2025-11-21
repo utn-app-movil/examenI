@@ -1,6 +1,6 @@
 package cr.ac.utn.movil.identities
 
-open class Person: Identifier {
+open class  Person: Identifier {
     private var _name: String =""
     private var _fLastName: String=""
     private var _sLastName: String=""
