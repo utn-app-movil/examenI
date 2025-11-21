@@ -85,9 +85,9 @@ class MainActivity : AppCompatActivity() {
             //bid_
         })
 
-        val btnSinpe_main = findViewById<Button>(R.id.btnTemplate_main)
+        val btnSinpe_main = findViewById<Button>(R.id.btnSinpe_main)
         btnSinpe_main.setOnClickListener(View.OnClickListener{ view->
-            //sin_
+            util.openActivity(this, sin_SinpeActivity::class.java)
         })
 
         val btnPayroll_main = findViewById<Button>(R.id.btnPayroll_main)
