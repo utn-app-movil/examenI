@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="med_title">Nursing control</string>
+    <string name="med_label_id">Record ID</string>
+    <string name="med_label_patient_name">Patient name</string>
+    <string name="med_label_blood_pressure">Blood pressure (e.g. 120/80)</string>
+    <string name="med_label_weight">Weight (kg)</string>
+    <string name="med_label_height">Height (cm)</string>
+    <string name="med_label_oxygenation">Oxygenation (%)</string>
+    <string name="med_label_date">Date (dd/MM/yyyy)</string>
+    <string name="med_label_time">Time (HH:mm)</string>
+    <string name="med_label_search">Search</string>
+    <string name="med_error_required_id">ID is required.</string>
+    <string name="med_error_required_patient_name">Patient name is required.</string>
+    <string name="med_error_required_blood_pressure">Blood pressure is required.</string>
+    <string name="med_error_invalid_blood_pressure">Blood pressure format must be like 120/80.</string>
+    <string name="med_error_required_date">Date is required.</string>
+    <string name="med_error_required_time">Time is required.</string>
+    <string name="med_error_not_found">Record was not found.</string>
+    <string name="med_error_future_datetime">Date and time cannot be in the future.</string>
+    <string name="med_error_invalid_datetime">Invalid date or time format.</string>
+</resources>
