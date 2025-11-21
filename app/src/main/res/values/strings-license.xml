@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Activity Titles -->
+    <string name="lic_title_renewal">License Renewal</string>
+    <string name="lic_title_list">License Renewals List</string>
+
+    <!-- Labels -->
+    <string name="lic_label_user_id">User ID</string>
+    <string name="lic_label_user_name">User Name</string>
+    <string name="lic_label_user_email">User Email</string>
+    <string name="lic_label_user_phone">User Phone</string>
+    <string name="lic_label_license_type">License Type</string>
+    <string name="lic_label_medical_opinion_code">Medical Opinion Code</string>
+    <string name="lic_label_current_score">Current Score</string>
+    <string name="lic_label_renewal_date">Renewal Date</string>
+    <string name="lic_label_renewal_time">Renewal Time</string>
+
+    <!-- Hints -->
+    <string name="lic_hint_user_id">Enter user ID</string>
+    <string name="lic_hint_user_name">Enter user name</string>
+    <string name="lic_hint_user_email">Enter user email</string>
+    <string name="lic_hint_user_phone">Enter user phone</string>
+    <string name="lic_hint_select_license_type">Select license type</string>
+    <string name="lic_hint_medical_opinion_code">Enter medical opinion code</string>
+    <string name="lic_hint_current_score">Enter current score (0-100)</string>
+    <string name="lic_hint_select_date">Select date</string>
+    <string name="lic_hint_select_time">Select time</string>
+
+    <!-- Buttons -->
+    <string name="lic_btn_save">Save</string>
+    <string name="lic_btn_update">Update</string>
+    <string name="lic_btn_delete">Delete</string>
+    <string name="lic_btn_clear">Clear</string>
+    <string name="lic_btn_add_new">Add New</string>
+
+    <!-- License Types -->
+    <string name="lic_type_a1">A1 - Motorcycles up to 125cc</string>
+    <string name="lic_type_a2">A2 - Motorcycles up to 500cc</string>
+    <string name="lic_type_a3">A3 - All Motorcycles</string>
+    <string name="lic_type_b1">B1 - Light Vehicles</string>
+    <string name="lic_type_b2">B2 - Light Vehicles + Trailer</string>
+    <string name="lic_type_b3">B3 - Taxi</string>
+    <string name="lic_type_b4">B4 - Ambulance</string>
+    <string name="lic_type_c1">C1 - Heavy Vehicles up to 3.5t</string>
+    <string name="lic_type_c2">C2 - Heavy Vehicles</string>
+    <string name="lic_type_d1">D1 - Buses up to 8 passengers</string>
+    <string name="lic_type_d2">D2 - Buses up to 35 passengers</string>
+    <string name="lic_type_d3">D3 - All Buses</string>
+    <string name="lic_type_e1">E1 - Special Agricultural</string>
+    <string name="lic_type_e2">E2 - Special Construction</string>
+
+    <!-- Validation Messages -->
+    <string name="lic_error_empty_user_id">User ID is required</string>
+    <string name="lic_error_empty_user_name">User name is required</string>
+    <string name="lic_error_empty_user_email">User email is required</string>
+    <string name="lic_error_invalid_email">Invalid email format</string>
+    <string name="lic_error_empty_user_phone">User phone is required</string>
+    <string name="lic_error_empty_license_type">Please select a license type</string>
+    <string name="lic_error_empty_medical_code">Medical opinion code is required</string>
+    <string name="lic_error_empty_score">Current score is required</string>
+    <string name="lic_error_invalid_score">Score must be between 0 and 100</string>
+    <string name="lic_error_score_too_low">Renewal not allowed. Score must be greater than 65</string>
+    <string name="lic_error_empty_date">Renewal date is required</string>
+    <string name="lic_error_empty_time">Renewal time is required</string>
+    <string name="lic_error_future_date">Renewal date and time cannot be in the future</string>
+    <string name="lic_error_duplicate_user">A renewal already exists for this user ID</string>
+    <string name="lic_error_duplicate_id">This record ID already exists</string>
+
+    <!-- Success Messages -->
+    <string name="lic_success_saved">License renewal saved successfully</string>
+    <string name="lic_success_updated">License renewal updated successfully</string>
+    <string name="lic_success_deleted">License renewal deleted successfully</string>
+
+    <!-- Confirmation Messages -->
+    <string name="lic_confirm_delete">Are you sure you want to delete this license renewal?</string>
+    <string name="lic_confirm_clear">Are you sure you want to clear all fields?</string>
+
+    <!-- List Messages -->
+    <string name="lic_empty_list">No license renewals found</string>
+    <string name="lic_list_item_id">ID: %1$s</string>
+    <string name="lic_list_item_score">Score: %1$d</string>
+    <string name="lic_list_item_date">Date: %1$s %2$s</string>
+    <string name="lic_list_item_type">Type: %1$s</string>
+
+    <!-- Menu -->
+    <string name="lic_menu_save">Save</string>
+    <string name="lic_menu_delete">Delete</string>
+    <string name="lic_menu_cancel">Cancel</string>
+
+    <!-- Error Messages -->
+    <string name="lic_error_no_record_selected">No record selected to delete</string>
+
+    <!-- License Types Array -->
+    <string-array name="lic_license_types_array">
+        <item>A1 - Motorcycles up to 125cc</item>
+        <item>A2 - Motorcycles up to 500cc</item>
+        <item>A3 - All Motorcycles</item>
+        <item>B1 - Light Vehicles</item>
+        <item>B2 - Light Vehicles + Trailer</item>
+        <item>B3 - Taxi</item>
+        <item>B4 - Ambulance</item>
+        <item>C1 - Heavy Vehicles up to 3.5t</item>
+        <item>C2 - Heavy Vehicles</item>
+        <item>D1 - Buses up to 8 passengers</item>
+        <item>D2 - Buses up to 35 passengers</item>
+        <item>D3 - All Buses</item>
+        <item>E1 - Special Agricultural</item>
+        <item>E2 - Special Construction</item>
+    </string-array>
+</resources>

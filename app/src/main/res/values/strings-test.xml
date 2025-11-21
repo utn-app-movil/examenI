@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="TextAppointment">Med Appointment</string>
+    <string name="TextVaccine">Vaccine</string>
+    <string name="TextLicense">License</string>
+    <string name="TextMedChecking">Med. Checking</string>
+
+    <string name="TextTemplate">Template</string>
+</resources>
