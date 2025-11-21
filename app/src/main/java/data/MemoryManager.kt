@@ -1,6 +1,5 @@
 package cr.ac.utn.movil.data
 
-import android.R.attr.filter
 import cr.ac.utn.movil.interfaces.IDataManager
 import cr.ac.utn.movil.identities.Identifier
 
@@ -24,7 +23,7 @@ object MemoryDataManager: IDataManager {
     override fun getAll()= objectList
 
     override fun getById(id: String): Identifier? {
-        val result = objectList. filter { it.ID.trim() == id.trim()}
+        val result = objectList.filter { it.ID.trim() == id.trim()}
         return if(result.any()) result[0] else null
     }
 }
