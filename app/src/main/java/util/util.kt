@@ -1,4 +1,4 @@
-package util
+package cr.ac.utn.movil.util
 
 import android.app.AlertDialog
 import cr.ac.utn.movil.R
