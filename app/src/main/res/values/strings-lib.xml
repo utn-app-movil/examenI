@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lib_reservation_title">Book Reservation</string>
+
+    <string name="lib_student_details_label">Student ID / Name</string>
+    <string name="lib_reserved_books_label">Reserved Books (Select one or more)</string>
+    <string name="lib_reservation_date_label">Reservation Date and Time</string>
+    <string name="lib_return_date_label">Return Date</string>
+    <string name="lib_library_branch_label">Library Branch</string>
+
+    <string name="lib_validation_date_error">The Return Date must be after the Reservation Date.</string>
+    <string name="lib_validation_required_fields_error">Please fill in all required fields.</string>
+    <string name="lib_data_duplication_error">Reservation for this ID already exists.</string>
+    <string name="lib_book_selection_hint">Tap to select books</string>
+    <string name="lib_branch_selection_hint">Select branch location</string>
+
+    <string-array name="lib_books_array">
+        <item>The Kotlin Way</item>
+        <item>Android Development Essentials</item>
+        <item>Data Structures in Java</item>
+        <item>Database Design Primer</item>
+    </string-array>
+
+    <string-array name="lib_branches_array">
+        <item>Guanacaste</item>
+        <item>Alajuela</item>
+        <item>San Jose</item>
+        <item>Puntarenas</item>
+    </string-array>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+</resources>
