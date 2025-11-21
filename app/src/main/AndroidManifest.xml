@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ExamenI">
-
+        <activity
+            android:name=".sin_SinpeActivity"
+            android:exported="false" />
         <activity
             android:name=".fli_BookingsRegister"
             android:exported="false">
