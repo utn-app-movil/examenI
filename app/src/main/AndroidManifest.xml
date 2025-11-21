@@ -14,15 +14,6 @@
 
 
         <activity
-            android:name=".activity_app_citas"
-            android:exported="false">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-
-
-        <activity
             android:name=".MainActivity"
             android:exported="true">
 
@@ -30,15 +21,7 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-        </activity>
-        <activity
-            android:name=".recru_alex"
-            android:exported="false" />
-    </application>
-            android:name=".ui.vac_VaccineActivity"
-            android:exported="false" />
-
+            
         <activity
             android:name=".PayrollActivity"
             android:exported="false"
@@ -55,6 +38,18 @@
         <activity
             android:name=".med_MedCheckingActivity"
             android:exported="false" />
+        
+        <activity
+            android:name=".recru_alex"
+            android:exported="false" />
+        
+        <activity
+            android:name=".activity_app_citas"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
 
     </application>
 </manifest>
