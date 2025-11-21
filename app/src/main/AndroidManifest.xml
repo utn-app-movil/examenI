@@ -12,16 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExamenI">
 
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            
+        </activity>
+
         <activity
             android:name=".PayrollActivity"
             android:exported="false"
@@ -31,6 +30,7 @@
             android:name=".PayrollFormActivity"
             android:exported="false"
             android:parentActivityName=".PayrollActivity" />
+
         <activity
             android:name=".DashActivity"
             android:label="@string/dash_contribution_dashboard" />
@@ -38,18 +38,14 @@
         <activity
             android:name=".med_MedCheckingActivity"
             android:exported="false" />
-        
+
         <activity
             android:name=".recru_alex"
             android:exported="false" />
-        
+
         <activity
             android:name=".activity_app_citas"
-            android:exported="false">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
+            android:exported="false" />
 
     </application>
 </manifest>
