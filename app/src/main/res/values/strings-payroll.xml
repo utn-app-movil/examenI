@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pay_title">Payroll Management</string>
+    <string name="pay_form_title">Employee Payment</string>
+    <string name="pay_form_title_edit">Edit Payment</string>
+    <string name="pay_form_title_add">New Payment</string>
+
+    <string name="pay_label_id">Employee ID</string>
+    <string name="pay_label_name">First Name</string>
+    <string name="pay_label_first_last_name">First Last Name</string>
+    <string name="pay_label_second_last_name">Second Last Name</string>
+    <string name="pay_label_phone">Phone</string>
+    <string name="pay_label_email">Email</string>
+    <string name="pay_label_employee_number">Employee Number</string>
+    <string name="pay_label_position">Position</string>
+    <string name="pay_label_salary">Salary</string>
+    <string name="pay_label_iban">IBAN Account</string>
+    <string name="pay_label_month">Payment Month</string>
+    <string name="pay_label_year">Payment Year</string>
+    <string name="pay_label_bank">Bank</string>
+
+    <string name="pay_hint_id">Enter employee ID</string>
+    <string name="pay_hint_name">Enter first name</string>
+    <string name="pay_hint_first_last_name">Enter first last name</string>
+    <string name="pay_hint_second_last_name">Enter second last name</string>
+    <string name="pay_hint_phone">Enter phone number</string>
+    <string name="pay_hint_email">Enter email address</string>
+    <string name="pay_hint_employee_number">Enter employee number</string>
+    <string name="pay_hint_position">Enter position</string>
+    <string name="pay_hint_salary">Enter salary amount</string>
+    <string name="pay_hint_iban">CR + 20 digits</string>
+    <string name="pay_hint_year">Enter payment year</string>
+
+    <string name="pay_select_bank">Select a bank</string>
+    <string name="pay_select_month">Select month</string>
+
+    <string name="pay_error_empty_id">Employee ID is required</string>
+    <string name="pay_error_empty_name">First name is required</string>
+    <string name="pay_error_empty_first_last_name">First last name is required</string>
+    <string name="pay_error_empty_employee_number">Employee number is required</string>
+    <string name="pay_error_empty_position">Position is required</string>
+    <string name="pay_error_empty_salary">Salary is required</string>
+    <string name="pay_error_invalid_salary">Salary must be greater than zero</string>
+    <string name="pay_error_empty_iban">IBAN account is required</string>
+    <string name="pay_error_invalid_iban">Invalid IBAN format. Must be CR + 20 digits</string>
+    <string name="pay_error_empty_month">Payment month is required</string>
+    <string name="pay_error_empty_year">Payment year is required</string>
+    <string name="pay_error_invalid_month">Invalid month. Must not be greater than current month</string>
+    <string name="pay_error_empty_bank">Bank selection is required</string>
+    <string name="pay_error_duplicate_id">Employee ID already exists</string>
+    <string name="pay_error_duplicate_employee">Employee number already exists</string>
+    <string name="pay_error_invalid_email">Invalid email format</string>
+    <string name="pay_error_invalid_phone">Invalid phone number</string>
+    <string name="pay_error_invalid_year">Year must not be greater than current year</string>
+
+    <string name="pay_success_add">Payment record added successfully</string>
+    <string name="pay_success_update">Payment record updated successfully</string>
+    <string name="pay_success_delete">Payment record deleted successfully</string>
+
+    <string name="pay_menu_save">Save</string>
+    <string name="pay_menu_delete">Delete</string>
+    <string name="pay_menu_cancel">Cancel</string>
+    <string name="pay_menu_add">Add New</string>
+
+    <string name="pay_dialog_delete_message">Are you sure you want to delete this payment record?</string>
+    <string name="pay_dialog_save_message">Are you sure you want to save this payment record?</string>
+
+    <string name="pay_empty_list">No payment records found</string>
+    <string name="pay_item_employee_number">Employee #: %1$s</string>
+    <string name="pay_item_position">Position: %1$s</string>
+    <string name="pay_item_salary">Salary: ₡%1$s</string>
+    <string name="pay_item_bank">Bank: %1$s</string>
+    <string name="pay_item_period">Period: %1$s %2$d</string>
+
+    <string-array name="pay_banks_array">
+        <item>Banco de Costa Rica</item>
+        <item>Banco Nacional</item>
+        <item>BAC San Jose</item>
+        <item>Scotiabank</item>
+        <item>Davivienda</item>
+        <item>Promerica</item>
+        <item>Lafise</item>
+        <item>Banco Popular</item>
+    </string-array>
+
+    <string-array name="pay_months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>
