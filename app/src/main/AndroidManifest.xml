@@ -11,6 +11,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ExamenI">
+        <activity
+            android:name=".exch_ExchangeTransactionActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".sin_SinpeActivity"
+            android:exported="false" />
+      
+        <activity
+            android:name=".cli_GesClientesActivity"
+            android:exported="false" />
+      
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false" />
+
+        <activity 
+            android:name=".EventosActivity"
+            android:exported="false" />
 
         <activity
             android:name=".fli_BookingsRegister"
@@ -44,7 +63,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".autonomy.AutonomyActivity"
+            android:exported="true"
+            android:label="@string/TextAutonomyVehicleId"
+            android:theme="@style/Theme.ExamenI" />
       
+        <activity
+            android:name=".prod_ProductionOrderActivity"
+            android:exported="false" />
         <activity
             android:name=".recru_alex"
             android:exported="false" />
@@ -53,7 +81,7 @@
             android:name=".PayrollFormActivity"
             android:exported="false"
             android:parentActivityName=".PayrollActivity" />
-
+      
         <activity
             android:name=".DashActivity"
             android:label="@string/dash_contribution_dashboard" />
@@ -61,7 +89,7 @@
         <activity
             android:name=".ui.RentActivity"
             android:exported="false" />
-      
+
         <activity
             android:name=".med_MedCheckingActivity"
             android:exported="false" />
