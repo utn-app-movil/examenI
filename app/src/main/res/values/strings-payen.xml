@@ -1,0 +1,43 @@
+<resources>
+
+
+    <string name="payen_title_list">Insurance Requests</string>
+    <string name="payen_title_form">Insurance Request Form</string>
+
+
+    <string name="payen_person_id">Person ID</string>
+    <string name="payen_person_name">Person Name</string>
+    <string name="payen_person_email">Person Email</string>
+
+
+    <string name="payen_specialty">Specialty</string>
+    <string name="payen_appointment_date">Appointment Date</string>
+    <string name="payen_appointment_time">Appointment Time</string>
+
+
+    <string name="payen_request_date">Request Date</string>
+    <string name="payen_request_time">Request Time</string>
+
+
+    <string name="payen_appointment_amount">Appointment Amount</string>
+    <string name="payen_medicines_amount">Medicines Total</string>
+
+
+    <string name="payen_btn_select_medicines">Select Medicines</string>
+    <string name="payen_selected_medicines">Selected Medicines</string>
+
+
+    <string name="payen_refund_label">Refund (80%)</string>
+
+
+    <string name="payen_btn_add">Add Request</string>
+    <string name="payen_btn_update">Update</string>
+
+
+    <string name="payen_msg_saved">The request was saved.</string>
+    <string name="payen_msg_updated">The request was updated.</string>
+    <string name="payen_msg_deleted">The request was deleted.</string>
+    <string name="payen_msg_invalid">Please fill all fields.</string>
+    <string name="payen_msg_duplicate">This request already exists.</string>
+
+</resources>
