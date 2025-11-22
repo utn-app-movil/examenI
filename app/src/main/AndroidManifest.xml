@@ -48,19 +48,18 @@
         </activity>
 
         <activity
-            android:name=".train_TrainingEnrollmentFormActivity"
-            android:exported="true" />
-
+            android:name=".LibLibraryActivity"
+            android:exported="false" />
+        
         <activity
-            android:name=".train_TrainingEnrollmentListActivity"
-            android:exported="true" />
-
+            android:name=".ui.vac_VaccineActivity"
+            android:exported="false" />
+      
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -75,13 +74,8 @@
             android:name=".prod_ProductionOrderActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.vac_VaccineActivity"
+            android:name=".recru_alex"
             android:exported="false" />
-
-        <activity
-            android:name=".PayrollActivity"
-            android:exported="false"
-            android:parentActivityName=".MainActivity" />
 
         <activity
             android:name=".PayrollFormActivity"
@@ -100,9 +94,5 @@
             android:name=".med_MedCheckingActivity"
             android:exported="false" />
 
-        <activity
-            android:name=".LibLibraryActivity"
-            android:exported="false" />
     </application>
-
 </manifest>

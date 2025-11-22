@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="TextID">*Identification</string>
+    <string name="TextDate">*Date</string>
+    <string name="TextName">*Name</string>
+    <string name="TextfLastName">*First lastname</string>
+    <string name="TextsLastName">*Second lastname</string>
+    <string name="TextProvince">*Province</string>
+    <string name="TextState">*State</string>
+    <string name="TextDistrict">*District</string>
+    <string name="DecimalSalary">*Salary</string>
+    <string name="TextCompany">*Company</string>
+    <string name="NumberExperience">*Experience</string>
+    <string name="TextRole">*Roles</string>
+
+
+</resources>
