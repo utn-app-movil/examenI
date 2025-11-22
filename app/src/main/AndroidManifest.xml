@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExamenI">
         <activity
+            android:name=".exch_ExchangeTransactionActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".sin_SinpeActivity"
             android:exported="false" />
 
@@ -56,9 +60,11 @@
         <activity
             android:name=".train_TrainingEnrollmentFormActivity"
             android:exported="true" />
+
         <activity
             android:name=".train_TrainingEnrollmentListActivity"
             android:exported="true" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

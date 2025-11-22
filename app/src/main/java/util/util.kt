@@ -14,6 +14,7 @@ const val EXTRA_ID = "cr.ac.utn.appmovil.Id"
 
 class util {
     companion object  {
+
         fun openActivity(context: Context, objclass: Class<*>, keyName: String="", value: String?=null){
             val intent = Intent(context, objclass).apply { putExtra(keyName, value)}
             context.startActivity(intent)
