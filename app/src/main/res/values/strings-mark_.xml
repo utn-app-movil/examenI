@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mark_title_list">Marketing Campaigns</string>
+    <string name="mark_title_form">Campaign Details</string>
+    <string name="mark_hint_code">Code</string>
+    <string name="mark_hint_name">Campaign Name</string>
+    <string name="mark_hint_budget">Budget (₡)</string>
+    <string name="mark_hint_start_date">Start Date (YYYY-MM-DD)</string>
+    <string name="mark_hint_end_date">End Date (YYYY-MM-DD)</string>
+    <string name="mark_label_channel">Distribution Channel</string>
+    <string name="mark_label_province">Province</string>
+    <string name="mark_hint_leader">Leader Name</string>
+
+    <string-array name="mark_channels">
+        <item>TV</item>
+        <item>Radio</item>
+        <item>Digital</item>
+    </string-array>
+
+    <string-array name="mark_provinces">
+        <item>San José</item>
+        <item>Alajuela</item>
+        <item>Cartago</item>
+        <item>Heredia</item>
+        <item>Guanacaste</item>
+        <item>Puntarenas</item>
+        <item>Limón</item>
+    </string-array>
+</resources>
