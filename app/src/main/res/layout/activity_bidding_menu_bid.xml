@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="100dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnNewBid_bid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Bid" />
+
+    <Button
+        android:id="@+id/btnBidList_bid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Bids List" />
+
+</LinearLayout>

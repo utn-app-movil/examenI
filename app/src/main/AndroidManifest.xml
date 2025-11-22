@@ -63,7 +63,12 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+
+        <activity android:name=".BiddingMenuActivity_bid" />
+        <activity android:name=".BiddingFormActivity_bid" />
+
 
         <activity
             android:name=".autonomy.AutonomyActivity"

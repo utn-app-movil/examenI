@@ -8,11 +8,13 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import cr.ac.utn.movil.BiddingMenuActivity_bid
 import cr.ac.utn.movil.util.EXTRA_ID
 import cr.ac.utn.movil.ui.vac_VaccineActivity
 import cr.ac.utn.movil.autonomy.AutonomyActivity
 import cr.ac.utn.movil.util.util
 import cr.ac.utn.movil.ui.RentActivity
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -80,15 +82,17 @@ class MainActivity : AppCompatActivity() {
             //recru_
         })
 
-        val btnBidding_main = findViewById<Button>(R.id.btnTemplate_main)
-        btnBidding_main.setOnClickListener(View.OnClickListener{ view->
-            //bid_
-        })
+        val btnBidding_main = findViewById<Button>(R.id.btnBidding_main)
+        btnBidding_main.setOnClickListener {
+            util.openActivity(this, BiddingMenuActivity_bid::class.java)
+        }
 
-        val btnSinpe_main = findViewById<Button>(R.id.btnSinpe_main)
-        btnSinpe_main.setOnClickListener(View.OnClickListener{ view->
+
+        val btnSinpe_main = findViewById<Button>(R.id.btnTemplate_main)
+        btnSinpe_main.setOnClickListener {
             util.openActivity(this, sin_SinpeActivity::class.java)
-        })
+        }
+
 
         val btnPayroll_main = findViewById<Button>(R.id.btnPayroll_main)
         btnPayroll_main.setOnClickListener(View.OnClickListener{ view->

@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Titles -->
+    <string name="bid_title_menu">Bidding Menu</string>
+
+    <!-- Buttons -->
+    <string name="bid_button_new">New Bid</string>
+    <string name="bid_button_list">Bids List</string>
+    <string name="bid_button_save">Save Bid</string>
+    <string name="bid_button_cancel">Cancel</string>
+
+    <!-- Form labels -->
+    <string name="bid_label_name">Name</string>
+    <string name="bid_label_first_lastname">First Last Name</string>
+    <string name="bid_label_second_lastname">Second Last Name</string>
+    <string name="bid_label_phone">Phone</string>
+    <string name="bid_label_email">Email</string>
+    <string name="bid_label_amount">Bid Amount</string>
+    <string name="bid_label_datetime">Bid Date and Time (yyyy-MM-dd HH:mm)</string>
+    <string name="bid_label_articles">Articles</string>
+    <string name="bid_label_awarded">Awarded</string>
+
+    <!-- Validation messages -->
+    <string name="bid_msg_select_article">Please select an article.</string>
+    <string name="bid_msg_invalid_amount">Invalid bid amount.</string>
+    <string name="bid_msg_invalid_datetime">Invalid date and time format.</string>
+    <string name="bid_msg_datetime_future">Date and time cannot be in the future.</string>
+    <string name="bid_msg_amount_too_low">Bid amount must be higher than the previous one.</string>
+
+    <!-- Articles array (temporary example, can be changed) -->
+    <string-array name="bid_articles_array">
+        <item>TV</item>
+        <item>Laptop</item>
+        <item>Smartphone</item>
+        <item>Headphones</item>
+    </string-array>
+
+</resources>
