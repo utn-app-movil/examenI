@@ -1,4 +1,3 @@
-// archivo: src/main/kotlin/cr/ac/utn/movil/Ens_Activity.kt
 package cr.ac.utn.movil
 
 import android.app.DatePickerDialog
@@ -88,7 +87,6 @@ class Ens_Activity : AppCompatActivity() {
             edtEndDate.setText(selected.format(dateFormatter))
         }
 
-        // Al tocar el campo de inicio
         edtStartDate.setOnClickListener {
             val current = if (edtStartDate.text.isNotEmpty())
                 LocalDate.parse(edtStartDate.text.toString(), dateFormatter)
@@ -97,7 +95,6 @@ class Ens_Activity : AppCompatActivity() {
             DatePickerDialog(this, startDateListener, current.year, current.monthValue - 1, current.dayOfMonth).show()
         }
 
-        // Al tocar el campo de vencimiento
         edtEndDate.setOnClickListener {
             val current = if (edtEndDate.text.isNotEmpty())
                 LocalDate.parse(edtEndDate.text.toString(), dateFormatter)

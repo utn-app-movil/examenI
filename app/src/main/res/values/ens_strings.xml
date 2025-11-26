@@ -1,4 +1,3 @@
-<!-- res/values/ens_strings.xml -->
 <resources>
     <string name="ens_policy_number">Número de póliza</string>
     <string name="ens_company">Empresa aseguradora</string>
