@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FAFAFA">
+
+    <!-- Número de póliza -->
+    <EditText
+        android:id="@+id/edt_ens_policyNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ens_policy_number"
+        android:inputType="textCapCharacters"
+        android:background="@drawable/ens_edittext_background"
+        android:padding="12dp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Empresa -->
+    <Spinner
+        android:id="@+id/spn_ens_company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:prompt="@string/ens_company" />
+
+    <!-- Tipo de seguro -->
+    <Spinner
+        android:id="@+id/spn_ens_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:prompt="@string/ens_insurance_type" />
+
+    <!-- Fecha de inicio -->
+    <EditText
+        android:id="@+id/edt_ens_startDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ens_start_date"
+        android:focusable="false"
+        android:clickable="true"
+        android:cursorVisible="false"
+        android:inputType="none"
+        android:background="@drawable/ens_edittext_background"
+        android:padding="12dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Fecha de vencimiento -->
+    <EditText
+        android:id="@+id/edt_ens_endDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ens_end_date"
+        android:focusable="false"
+        android:clickable="true"
+        android:cursorVisible="false"
+        android:inputType="none"
+        android:background="@drawable/ens_edittext_background"
+        android:padding="12dp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Prima -->
+    <EditText
+        android:id="@+id/edt_ens_premium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ens_premium"
+        android:inputType="numberDecimal"
+        android:background="@drawable/ens_edittext_background"
+        android:padding="12dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Título de la lista -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pólizas Registradas"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#1A1A1A"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Lista de pólizas -->
+    <ListView
+        android:id="@+id/lv_ens_policies"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:divider="#EEEEEE"
+        android:dividerHeight="1dp"
+        android:padding="8dp" />
+
+</LinearLayout>

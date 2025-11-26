@@ -146,9 +146,10 @@ class MainActivity : AppCompatActivity() {
             //mark_
         })
 
-        val btnEnsurance_main = findViewById<Button>(R.id.btnTemplate_main)
+        val btnEnsurance_main = findViewById<Button>(R.id.btnEnsurance_main)
         btnEnsurance_main.setOnClickListener(View.OnClickListener{ view->
             //ens_
+            util.openActivity(this, Ens_Activity::class.java)
         })
 
         val btnVehicle_main = findViewById<Button>(R.id.btnTemplate_main)

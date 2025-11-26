@@ -1,0 +1,24 @@
+<!-- res/values/ens_strings.xml -->
+<resources>
+    <string name="ens_policy_number">Número de póliza</string>
+    <string name="ens_company">Empresa aseguradora</string>
+    <string name="ens_insurance_type">Tipo de seguro</string>
+    <string name="ens_start_date">Fecha de inicio (dd/MM/yyyy)</string>
+    <string name="ens_end_date">Fecha de vencimiento (dd/MM/yyyy)</string>
+    <string name="ens_premium">Prima (₡)</string>
+
+    <string name="ens_save_success">Póliza guardada correctamente</string>
+    <string name="ens_deleted">Póliza eliminada</string>
+    <string name="ens_confirm_delete">¿Desea eliminar esta póliza?</string>
+    <string name="ens_nothing_to_delete">No hay póliza para eliminar</string>
+
+    <string name="ens_error_policy_empty">El número de póliza es obligatorio</string>
+    <string name="ens_error_duplicate">Ya existe una póliza con ese número</string>
+    <string name="ens_error_date_format">Formato de fecha inválido (use dd/MM/yyyy)</string>
+    <string name="ens_error_end_before_start">La fecha de vencimiento debe ser posterior a la de inicio</string>
+    <string name="ens_error_premium">Prima inválida</string>
+
+    <string name="ens_updated_success">Póliza actualizada correctamente</string>
+    <string name="ens_select_dates">Debe seleccionar ambas fechas</string>
+    <string name="ens_premium_zero">La prima debe ser mayor a cero</string>
+</resources>
