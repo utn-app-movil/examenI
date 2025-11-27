@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".exch_ExchangeTransactionActivity">
+
+    <!-- Encabezado -->
+    <LinearLayout
+        android:id="@+id/exch_HeaderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="@color/design_default_color_primary_variant"
+        android:gravity="center_vertical">
+
+        <!-- Botón Volver -->
+        <ImageButton
+            android:id="@+id/exch_back_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="8dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/exch_arrow_back"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/exch_tvHeaderTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/exch_ExchangeRateView"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <!-- Botón Guardar -->
+        <ImageButton
+            android:id="@+id/exch_save_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="8dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/exch_save"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <!-- Botón Modificar -->
+        <ImageButton
+            android:id="@+id/exch_edit_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="8dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/exch_modify"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <!-- Botón Eliminar -->
+        <ImageButton
+            android:id="@+id/exch_delete_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/exch_delete"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <!-- Botón Cancelar -->
+        <ImageButton
+            android:id="@+id/exch_cancel_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/exch_cancel"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <!-- Contenedor desplazable -->
+    <ScrollView
+        android:id="@+id/exch_scrollContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/exch_HeaderLayout"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center_horizontal">
+
+            <!-- ID + Buscar -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/exch_IdView"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="6dp" />
+
+                    <EditText
+                        android:id="@+id/exch_txtId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="14dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/exch_Search_button"
+                    android:layout_width="44dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:background="@android:color/transparent"
+                    android:src="@android:drawable/ic_search_category_default" />
+            </LinearLayout>
+
+            <!-- Nombre -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exch_personNameView"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginBottom="6dp" />
+
+            <EditText
+                android:id="@+id/exch_txtCompleteName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="18sp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- ID Persona -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exch_txtViewIdPerson"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginBottom="6dp" />
+
+            <EditText
+                android:id="@+id/exch_txtPersonId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="18sp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Fecha -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exch_dateView"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginBottom="6dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="16dp">
+
+                <ImageButton
+                    android:id="@+id/exch_btnSelectDate"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@android:color/transparent"
+                    android:src="@android:drawable/ic_menu_my_calendar" />
+
+                <TextView
+                    android:id="@+id/exch_tvDateSelected"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="10dp" />
+            </LinearLayout>
+
+            <!-- Operation Type -->
+            <TextView
+                android:id="@+id/exch_tvOperationType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exch_operationType_title"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginBottom="6dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <CheckBox
+                    android:id="@+id/exch_chkCRCtoUSD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/exch_operation_crc_to_usd"
+                    android:textSize="16sp"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/exch_chkUSDtoCRC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:text="@string/exch_operation_usd_to_crc"
+                    android:textSize="16sp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <!-- Exchange Rate -->
+            <TextView
+                android:id="@+id/exch_tvExchangeRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exch_exchangeRate_title"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginBottom="6dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="start"
+                android:layout_marginBottom="16dp">
+
+                <CheckBox
+                    android:id="@+id/exch_chkRateCRC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CRC (₡540)"
+                    android:textSize="16sp"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/exch_chkRateUSD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:text="USD ($1)"
+                    android:textSize="16sp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <!-- Amount to Exchange -->
+            <TextView
+                android:id="@+id/exch_tvAmountToExchange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exch_amountToExchange_title"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginBottom="6dp" />
+
+            <EditText
+                android:id="@+id/exch_txtAmountToExchange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="14dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Bank Entity -->
+            <TextView
+                android:id="@+id/exch_tvBankEntity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exch_bankEntity_title"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginBottom="6dp" />
+
+            <Spinner
+                android:id="@+id/exch_spnBankEntity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:layout_marginBottom="20dp"
+                android:entries="@array/exch_bankEntity_options" />
+
+            <TextView
+                android:id="@+id/exch_tvStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:background="@android:color/transparent" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

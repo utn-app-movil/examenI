@@ -114,9 +114,11 @@ class MainActivity : AppCompatActivity() {
             util.openActivity(this, LibLibraryActivity::class.java)
         })
 
-        val btnExchange_main = findViewById<Button>(R.id.btnTemplate_main)
+        val btnExchange_main = findViewById<Button>(R.id.btnExchange_main)
         btnExchange_main.setOnClickListener(View.OnClickListener{ view->
             //exch_
+            util.openActivity(this,exch_ExchangeTransactionActivity::class.java)
+
         })
 
         val btnTraining_main = findViewById<Button>(R.id.btnTemplate_main)
@@ -144,12 +146,13 @@ class MainActivity : AppCompatActivity() {
 
         val btnMarketing_main = findViewById<Button>(R.id.btnTemplate_main)
         btnMarketing_main.setOnClickListener(View.OnClickListener{ view->
-            //mark_
+            util.openActivity(this, MarkListActivity::class.java)
         })
 
-        val btnEnsurance_main = findViewById<Button>(R.id.btnTemplate_main)
+        val btnEnsurance_main = findViewById<Button>(R.id.btnEnsurance_main)
         btnEnsurance_main.setOnClickListener(View.OnClickListener{ view->
             //ens_
+            util.openActivity(this, Ens_Activity::class.java)
         })
 
         val btnVehicle_main = findViewById<Button>(R.id.btnTemplate_main)

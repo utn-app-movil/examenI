@@ -1,4 +1,4 @@
-package cr.ac.utn.movil.util
+package util
 
 import android.app.AlertDialog
 import cr.ac.utn.movil.R
@@ -14,6 +14,7 @@ const val EXTRA_ID = "cr.ac.utn.appmovil.Id"
 
 class util {
     companion object  {
+
         fun openActivity(context: Context, objclass: Class<*>, keyName: String="", value: String?=null){
             val intent = Intent(context, objclass).apply { putExtra(keyName, value)}
             context.startActivity(intent)

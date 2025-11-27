@@ -1,7 +1,7 @@
 package cr.ac.utn.movil
 
 import identities.cli_GestionClientes
-import Controller.cli_GesClientesCotroller
+import controller.cli_GesClientesCotroller
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater

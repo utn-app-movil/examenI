@@ -12,18 +12,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExamenI">
         <activity
+            android:name=".exch_ExchangeTransactionActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".sin_SinpeActivity"
             android:exported="false" />
-      
+
         <activity
             android:name=".cli_GesClientesActivity"
             android:exported="false" />
-      
+
         <activity
             android:name=".NotificationActivity"
             android:exported="false" />
 
-        <activity 
+        <activity
+            android:name=".MarkListActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".MarkFormActivity"
+            android:exported="false"
+            android:parentActivityName=".MarkListActivity" />
+
+        <activity
             android:name=".EventosActivity"
             android:exported="false" />
 
@@ -46,9 +60,15 @@
         <activity
             android:name=".train_TrainingEnrollmentFormActivity"
             android:exported="true" />
+
         <activity
             android:name=".train_TrainingEnrollmentListActivity"
             android:exported="true" />
+
+        <activity
+            android:name=".Ens_Activity"
+            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -64,7 +84,7 @@
             android:exported="true"
             android:label="@string/TextAutonomyVehicleId"
             android:theme="@style/Theme.ExamenI" />
-      
+
         <activity
             android:name=".prod_ProductionOrderActivity"
             android:exported="false" />
@@ -81,11 +101,11 @@
             android:name=".PayrollFormActivity"
             android:exported="false"
             android:parentActivityName=".PayrollActivity" />
-      
+
         <activity
             android:name=".DashActivity"
             android:label="@string/dash_contribution_dashboard" />
-      
+
         <activity
             android:name=".ui.RentActivity"
             android:exported="false" />
