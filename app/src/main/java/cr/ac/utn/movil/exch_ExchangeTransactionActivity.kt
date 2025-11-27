@@ -18,7 +18,7 @@ import androidx.core.view.WindowInsetsCompat
 import controller.exch_ExTransactionController
 import identities.exch_ExchangeTransaction
 import java.time.LocalDateTime
-import util.util
+import cr.ac.utn.movil.util.util
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
