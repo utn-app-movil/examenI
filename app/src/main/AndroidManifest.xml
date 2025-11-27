@@ -18,16 +18,26 @@
         <activity
             android:name=".sin_SinpeActivity"
             android:exported="false" />
-      
+
         <activity
             android:name=".cli_GesClientesActivity"
             android:exported="false" />
-      
+
         <activity
             android:name=".NotificationActivity"
             android:exported="false" />
 
-        <activity 
+        <activity
+            android:name=".MarkListActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".MarkFormActivity"
+            android:exported="false"
+            android:parentActivityName=".MarkListActivity" />
+
+        <activity
             android:name=".EventosActivity"
             android:exported="false" />
 
@@ -70,7 +80,7 @@
             android:exported="true"
             android:label="@string/TextAutonomyVehicleId"
             android:theme="@style/Theme.ExamenI" />
-      
+
         <activity
             android:name=".prod_ProductionOrderActivity"
             android:exported="false" />
@@ -87,11 +97,11 @@
             android:name=".PayrollFormActivity"
             android:exported="false"
             android:parentActivityName=".PayrollActivity" />
-      
+
         <activity
             android:name=".DashActivity"
             android:label="@string/dash_contribution_dashboard" />
-      
+
         <activity
             android:name=".ui.RentActivity"
             android:exported="false" />
