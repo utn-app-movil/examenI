@@ -143,7 +143,7 @@ class MainActivity : AppCompatActivity() {
 
         val btnMarketing_main = findViewById<Button>(R.id.btnTemplate_main)
         btnMarketing_main.setOnClickListener(View.OnClickListener{ view->
-            //mark_
+            util.openActivity(this, MarkListActivity::class.java)
         })
 
         val btnEnsurance_main = findViewById<Button>(R.id.btnEnsurance_main)
