@@ -118,6 +118,10 @@
             android:name=".LibLibraryActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".recru_alex"
+            android:exported="false" />
+
         <activity android:name=".activities.PayenInsuranceListActivity" />
         <activity android:name=".activities.PayenInsuranceFormActivity" />
 

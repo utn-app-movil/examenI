@@ -9,6 +9,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import identities.recru_Form
 import cr.ac.utn.movil.util.EXTRA_ID
 import cr.ac.utn.movil.ui.vac_VaccineActivity
 import cr.ac.utn.movil.autonomy.AutonomyActivity
@@ -76,9 +77,12 @@ class MainActivity : AppCompatActivity() {
             //pha_
         })
 
-        val btnRecruitering_main = findViewById<Button>(R.id.btnTemplate_main)
+        val btnRecruitering_main = findViewById<Button>(R.id.btnRecruitering_main)
         btnRecruitering_main.setOnClickListener(View.OnClickListener{ view->
-            //recru_
+
+            val intent = Intent(this, recru_alex::class.java)
+            startActivity(intent)
+
         })
 
         val btnBidding_main = findViewById<Button>(R.id.btnTemplate_main)
