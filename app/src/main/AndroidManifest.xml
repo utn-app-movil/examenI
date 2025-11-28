@@ -11,6 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ExamenI">
+
+        <!-- NUEVA ACTIVITY QUE AGREGAMOS -->
+        <activity
+            android:name=".ui.Recy_RecyclingActivity"
+            android:exported="false" />
+
         <activity
             android:name=".exch_ExchangeTransactionActivity"
             android:exported="false" />
@@ -74,7 +80,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -88,6 +93,7 @@
         <activity
             android:name=".prod_ProductionOrderActivity"
             android:exported="false" />
+
         <activity
             android:name=".ui.vac_VaccineActivity"
             android:exported="false" />
@@ -117,6 +123,7 @@
         <activity
             android:name=".LibLibraryActivity"
             android:exported="false" />
+
     </application>
 
 </manifest>

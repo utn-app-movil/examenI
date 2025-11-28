@@ -13,6 +13,7 @@ import cr.ac.utn.movil.ui.vac_VaccineActivity
 import cr.ac.utn.movil.autonomy.AutonomyActivity
 import cr.ac.utn.movil.util.util
 import cr.ac.utn.movil.ui.RentActivity
+import cr.ac.utn.movil.ui.Recy_RecyclingActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -169,10 +170,13 @@ class MainActivity : AppCompatActivity() {
             //wat_
         })
 
-        val btnRecycling_main = findViewById<Button>(R.id.btnTemplate_main)
-        btnRecycling_main.setOnClickListener(View.OnClickListener{ view->
-            //recy_
-        })
+        val btnRecycling_main = findViewById<Button>(R.id.btnRecycling_main)
+
+        btnRecycling_main.setOnClickListener {
+            val intent = Intent(this, Recy_RecyclingActivity::class.java)
+            startActivity(intent)
+        }
+
 
         val btnTemplate_main = findViewById<Button>(R.id.btnTemplate_main)
         btnTemplate_main.setOnClickListener(View.OnClickListener{ view->
