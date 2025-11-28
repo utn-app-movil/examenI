@@ -1,4 +1,7 @@
 package cr.ac.utn.movil
+
+import cr.ac.utn.movil.activities.PayenInsuranceListActivity
+
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -140,10 +143,10 @@ class MainActivity : AppCompatActivity() {
             util.openActivity(this, DashActivity::class.java)
         })
 
-        val btnPaymentEnsurance_main = findViewById<Button>(R.id.btnTemplate_main)
-        btnPaymentEnsurance_main.setOnClickListener(View.OnClickListener{ view->
-            //payen_
-        })
+        val btnPaymentEnsurance_main = findViewById<Button>(R.id.btnPaymentEnsurance_main)
+        btnPaymentEnsurance_main.setOnClickListener {
+            util.openActivity(this, PayenInsuranceListActivity::class.java)
+        }
 
         val btnMarketing_main = findViewById<Button>(R.id.btnTemplate_main)
         btnMarketing_main.setOnClickListener(View.OnClickListener{ view->

@@ -9,7 +9,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import cr.ac.utn.movil.controller.mark_MarketingController
 import cr.ac.utn.movil.identities.mark_MarketingCampaign
-import util.util
+import cr.ac.utn.movil.util.util
 import java.text.SimpleDateFormat
 import java.util.*
 
