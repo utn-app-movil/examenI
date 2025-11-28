@@ -1,7 +1,6 @@
 package cr.ac.utn.movil
 import android.content.Intent
 import cr.ac.utn.movil.activities.PayenInsuranceListActivity
-import cr.ac.utn.movil.util.util
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
